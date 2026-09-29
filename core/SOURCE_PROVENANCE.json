@@ -1,0 +1,1095 @@
+{
+  "kind": "Exact general-source extraction; not a fresh build receipt",
+  "original_final_audit_sha256": "323a4c545e6867718d24d2fc0f6f0002497d65f7d1ec70b2a1842f78ae2414e9",
+  "roots": [
+    "ForestStatements",
+    "Floor216GraphPolynomial",
+    "Floor216LogConcavity",
+    "Floor216ConvolutionClosure",
+    "Floor216Relabeling",
+    "Floor216Coverage"
+  ],
+  "modules": [
+    {
+      "module": "ForestStatements",
+      "path": "ForestStatements.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestStatements.lean",
+      "sha256": "fb0f238bcabc8bc792b0b40077c22e5325915709543031eb0abf89be3958cf0e",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestStatements/receipt.json"
+      ],
+      "bytes": 6797
+    },
+    {
+      "module": "Floor216Algebra",
+      "path": "Floor216Algebra.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Algebra.lean",
+      "sha256": "6207377b777c226cd35525d550469947f6d66b7b247a3e3f05e02a25dd092e50",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Algebra_20260919_183632/receipt.json"
+      ],
+      "bytes": 4232
+    },
+    {
+      "module": "Floor216Intervals",
+      "path": "Floor216Intervals.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Intervals.lean",
+      "sha256": "0c76cdaf8d030bcf88dfd21df723ef5341b0ad0c2f08235d1535b6b952cd706c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Intervals_20260919_183642/receipt.json"
+      ],
+      "bytes": 3213
+    },
+    {
+      "module": "Floor216Enclosures",
+      "path": "Floor216Enclosures.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Enclosures.lean",
+      "sha256": "f219740852b898ad14a968d251074d691dee28e43639e268cc4f093886ced53b",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Enclosures_20260919_184019/receipt.json"
+      ],
+      "bytes": 5005
+    },
+    {
+      "module": "ClosureInterfaces",
+      "path": "ClosureInterfaces.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ClosureInterfaces.lean",
+      "sha256": "6813df60cd2adc4b9fcb11e49f6a3c5d7b13046ef526c378dd5d605088e615a6",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ClosureInterfaces/receipt.json"
+      ],
+      "bytes": 5052
+    },
+    {
+      "module": "NoRecoveryFoundation",
+      "path": "NoRecoveryFoundation.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/NoRecoveryFoundation.lean",
+      "sha256": "7a84c3995891e24f4278301dacc1ea1f44b94e5d99621151990d9ed75094ad2f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/NoRecoveryFoundation/receipt.json"
+      ],
+      "bytes": 4195
+    },
+    {
+      "module": "CriticalExtraction",
+      "path": "CriticalExtraction.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/CriticalExtraction.lean",
+      "sha256": "ebfb54dc43580cb847d56998a18adda64361f0015940145d05be93fd436d4b9f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/CriticalExtraction/receipt.json"
+      ],
+      "bytes": 5922
+    },
+    {
+      "module": "FloorSafeWindow203",
+      "path": "FloorSafeWindow203.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/FloorSafeWindow203.lean",
+      "sha256": "4052da9e07aed479b410e5f1d0e30b33ec275e6a9adb0b1e4dd55fb365f55c2a",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/FloorSafeWindow203_20260919_183700/receipt.json"
+      ],
+      "bytes": 4281
+    },
+    {
+      "module": "Floor216Acceptance",
+      "path": "Floor216Acceptance.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Acceptance.lean",
+      "sha256": "5a95179c8a262007cbe1e8cdd0705e0f33003370bbecd74cde9a59b334761022",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Acceptance_20260919_184217/receipt.json"
+      ],
+      "bytes": 3925
+    },
+    {
+      "module": "GraphExtensionCounting",
+      "path": "GraphExtensionCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/GraphExtensionCounting.lean",
+      "sha256": "3fac489874924f500ee74c7499fe613271ceddbfeb4d52024cd9276cd75d4dba",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/GraphExtensionCounting/receipt.json"
+      ],
+      "bytes": 22429
+    },
+    {
+      "module": "ForestLeafStructure",
+      "path": "ForestLeafStructure.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestLeafStructure.lean",
+      "sha256": "66455c347e87a0ba8c354fede5d602e90f53b84f92f39a60ed89aba6fccb9d8f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestLeafStructure/receipt.json"
+      ],
+      "bytes": 13064
+    },
+    {
+      "module": "MarkedInjectionAudit",
+      "path": "MarkedInjectionAudit.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/MarkedInjectionAudit.lean",
+      "sha256": "1fa98c1a1d60ef7d69696dc29349833574bf3f7663348a22c5f19b102a11fd8e",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/MarkedInjectionAudit/receipt.json"
+      ],
+      "bytes": 7032
+    },
+    {
+      "module": "ForestParentCertificate",
+      "path": "ForestParentCertificate.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestParentCertificate.lean",
+      "sha256": "9e792a252c34e698f9dc95050e16a885f3a9027a80453029995dc4d7fab11aa0",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestParentCertificate/receipt.json"
+      ],
+      "bytes": 6929
+    },
+    {
+      "module": "FiniteMarkedFamilies",
+      "path": "FiniteMarkedFamilies.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FiniteMarkedFamilies.lean",
+      "sha256": "5cfd85704cb2190103f4ab097b7e9a90410af95b187f489a48a382ef8244061b",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/FiniteMarkedFamilies/receipt.json"
+      ],
+      "bytes": 8856
+    },
+    {
+      "module": "RootingBridgeAudit",
+      "path": "RootingBridgeAudit.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/RootingBridgeAudit.lean",
+      "sha256": "89150a01d1a1ad375ca83fb192b63b3b5ef6af665dd05c0db7d44bf2eb882f43",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/RootingBridgeAudit/receipt.json"
+      ],
+      "bytes": 2100
+    },
+    {
+      "module": "ForestCurvature",
+      "path": "ForestCurvature.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestCurvature.lean",
+      "sha256": "10908b4d86bb540fb41266bf119f41ea8a48e9de63365360f3c1b9aed5900c65",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestCurvature/receipt.json"
+      ],
+      "bytes": 6918
+    },
+    {
+      "module": "GraphExtensionUpper",
+      "path": "GraphExtensionUpper.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/GraphExtensionUpper.lean",
+      "sha256": "13126c0a6574ea8d84efa265e49975d196307058820dab55a3631f8e096dc596",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/GraphExtensionUpper/receipt.json"
+      ],
+      "bytes": 1492
+    },
+    {
+      "module": "LeafBoundaryTransfer",
+      "path": "LeafBoundaryTransfer.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafBoundaryTransfer.lean",
+      "sha256": "0c6bc685024293b0fa963b9f70e488dcbb6212e2bfee87f6dd41f263f8375574",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/LeafBoundaryTransfer/receipt.json"
+      ],
+      "bytes": 11014
+    },
+    {
+      "module": "ForestEndSupport",
+      "path": "ForestEndSupport.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestEndSupport.lean",
+      "sha256": "204d20108582c5ef32188a336c8e89e510be925ba6f0c03d5b8b805457298285",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestEndSupport/receipt.json"
+      ],
+      "bytes": 1756
+    },
+    {
+      "module": "IsolatePaddingCounts",
+      "path": "IsolatePaddingCounts.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/IsolatePaddingCounts.lean",
+      "sha256": "7ce942a5ba54d3fb80cb93d92766b482d277736432ed9e71f0e18744d2129a8d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/IsolatePaddingCounts/receipt.json"
+      ],
+      "bytes": 4181
+    },
+    {
+      "module": "EndSupportPadding",
+      "path": "EndSupportPadding.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/EndSupportPadding.lean",
+      "sha256": "91954d54d30b53d666151f01fb0b47c01a50c9609b5f9a14cfd9f3223726792c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/EndSupportPadding/receipt.json"
+      ],
+      "bytes": 2623
+    },
+    {
+      "module": "QuarterEndBudget",
+      "path": "QuarterEndBudget.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/QuarterEndBudget.lean",
+      "sha256": "774a07019f676dbace73dd2228ec64ab0f63b19f102de062bfb173b8003b2e61",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/QuarterEndBudget/receipt.json"
+      ],
+      "bytes": 4790
+    },
+    {
+      "module": "QuarterPaddingCertificate",
+      "path": "QuarterPaddingCertificate.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/QuarterPaddingCertificate.lean",
+      "sha256": "2190fd318dbf80b2f96997e6b33603857d0727611424af740cfcc31e84374bd4",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/QuarterPaddingCertificate/receipt.json"
+      ],
+      "bytes": 5754
+    },
+    {
+      "module": "QuarterBoundaryExclusion",
+      "path": "QuarterBoundaryExclusion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/QuarterBoundaryExclusion.lean",
+      "sha256": "35932f54646f362f5218c7fcb21f860972cdbf38141148b941c9cb2a5d1cc76e",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/QuarterBoundaryExclusion/receipt.json"
+      ],
+      "bytes": 4448
+    },
+    {
+      "module": "IsolateCurvature",
+      "path": "IsolateCurvature.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/IsolateCurvature.lean",
+      "sha256": "7f7080c150ac54e0a7ab3e1c105b7232363878d7c8de63e0abd6706940d3df8c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/IsolateCurvature/receipt.json"
+      ],
+      "bytes": 5482
+    },
+    {
+      "module": "VertexIncidence",
+      "path": "VertexIncidence.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/VertexIncidence.lean",
+      "sha256": "52069e309733c56e6e0587ed184f273d76b85f3f64a92f3f021ae0be8ca14376",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/VertexIncidence/receipt.json"
+      ],
+      "bytes": 2494
+    },
+    {
+      "module": "SingleIsolateBound",
+      "path": "SingleIsolateBound.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/SingleIsolateBound.lean",
+      "sha256": "b64db8f98e64ba368fabec324553783220b3ac4a9cb9f4fb3567204d4f7796d6",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/SingleIsolateBound/receipt.json"
+      ],
+      "bytes": 3276
+    },
+    {
+      "module": "LinearFactorUnimodality",
+      "path": "LinearFactorUnimodality.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LinearFactorUnimodality.lean",
+      "sha256": "0d897a19ebf3bd3315809574db3906ad2bd56f4bea035f8a54f458a63f5c93ac",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/LinearFactorUnimodality/receipt.json"
+      ],
+      "bytes": 4174
+    },
+    {
+      "module": "LeafAttachment",
+      "path": "LeafAttachment.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafAttachment.lean",
+      "sha256": "d770a9bf5c21dd27d1723c772a3f2d1a96cc00bd04f99aaff4ae41696bd5ad7c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/LeafAttachment/receipt.json"
+      ],
+      "bytes": 3966
+    },
+    {
+      "module": "RootedSecondGradientGoal",
+      "path": "RootedSecondGradientGoal.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/RootedSecondGradientGoal.lean",
+      "sha256": "25f9637c1600531e7323d8e5c69d01b026c083c5a219fe3e419f64d141a22e13",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/RootedSecondGradientGoal/receipt.json"
+      ],
+      "bytes": 1771
+    },
+    {
+      "module": "LeafAttachmentCounting",
+      "path": "LeafAttachmentCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafAttachmentCounting.lean",
+      "sha256": "63a51ed055737061d4b9fdd3d51aa6879cf72b0923f12fbe489a25bc4616fbf0",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/LeafAttachmentCounting/receipt.json"
+      ],
+      "bytes": 5445
+    },
+    {
+      "module": "WeightedInducedCounting",
+      "path": "WeightedInducedCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/WeightedInducedCounting.lean",
+      "sha256": "44b30b4854f9bf66b595cb06bcbcc0a5c440ba40098181258fd7fed12e4ef0e5",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/WeightedInducedCounting/receipt.json"
+      ],
+      "bytes": 4010
+    },
+    {
+      "module": "RootedJointGrowth",
+      "path": "RootedJointGrowth.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/RootedJointGrowth.lean",
+      "sha256": "c1301749c20b3f08294787f60e4b1ed29c4c8714cf08cde8325ff22b745256e4",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/RootedJointGrowth/receipt.json"
+      ],
+      "bytes": 1909
+    },
+    {
+      "module": "SeparatedRootCurvature",
+      "path": "SeparatedRootCurvature.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/SeparatedRootCurvature.lean",
+      "sha256": "56475ebce126f69399c81c9e861bc75bdde2200a4e0320430c13ffb51d4b81ec",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/SeparatedRootCurvature/receipt.json"
+      ],
+      "bytes": 7109
+    },
+    {
+      "module": "PrefixRootBudget",
+      "path": "PrefixRootBudget.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixRootBudget.lean",
+      "sha256": "55e0baef39677c2df4254c99a3da875fc2ec840e07ad18b83e8e01e76e98fb43",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_182628/PrefixRootBudget/receipt.json"
+      ],
+      "bytes": 5115
+    },
+    {
+      "module": "ForestOverlapCounting",
+      "path": "ForestOverlapCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestOverlapCounting.lean",
+      "sha256": "c40b3b7487a922f9c724bf34b169ee68b284e1d24de03fe5383e8ff61b351514",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183150/ForestOverlapCounting/receipt.json"
+      ],
+      "bytes": 3989
+    },
+    {
+      "module": "PrefixForkPacking",
+      "path": "PrefixForkPacking.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixForkPacking.lean",
+      "sha256": "e89875b297ae3c36b5e49e6c76bb1409577a828708fbd200d13aa409c255407f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183154/PrefixForkPacking/receipt.json"
+      ],
+      "bytes": 7425
+    },
+    {
+      "module": "PrefixPairIncidence",
+      "path": "PrefixPairIncidence.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixPairIncidence.lean",
+      "sha256": "34f651ef88b3003b74bcf3e4bd00a0563be0409d9588ebcf76d77197a7c94a1c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183156/PrefixPairIncidence/receipt.json"
+      ],
+      "bytes": 4349
+    },
+    {
+      "module": "PrefixPartitionCounting",
+      "path": "PrefixPartitionCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixPartitionCounting.lean",
+      "sha256": "c4bff24de963cdc041153535e77f11b4dd12958f683aed05fba6572f62d821c5",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183158/PrefixPartitionCounting/receipt.json"
+      ],
+      "bytes": 3643
+    },
+    {
+      "module": "PrefixLocalCounting",
+      "path": "PrefixLocalCounting.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixLocalCounting.lean",
+      "sha256": "50ea5b9a75fce9e29caedd021086f10532b78404c49aec95bcd9a9693a67c099",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183159/PrefixLocalCounting/receipt.json"
+      ],
+      "bytes": 6217
+    },
+    {
+      "module": "PrefixSubsetTotals",
+      "path": "PrefixSubsetTotals.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixSubsetTotals.lean",
+      "sha256": "aa0d785c11aea9619ef531a1de90fd477a8f55657999430272d171d8c8131aa8",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183201/PrefixSubsetTotals/receipt.json"
+      ],
+      "bytes": 3913
+    },
+    {
+      "module": "ForestDeletionSeparation",
+      "path": "ForestDeletionSeparation.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestDeletionSeparation.lean",
+      "sha256": "9468c8a0901ec2f54dd005eb41af84477a2b0eb34ea871d558e6ca40dbb82b29",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/ForestDeletionSeparation/receipt.json"
+      ],
+      "bytes": 4172
+    },
+    {
+      "module": "LeafIncidenceBounds",
+      "path": "LeafIncidenceBounds.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafIncidenceBounds.lean",
+      "sha256": "d8beeedbe6628d861dc664ce3e9a052b5dcd8d609190dcca1049f0cd7d3ef2e3",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/LeafIncidenceBounds/receipt.json"
+      ],
+      "bytes": 2408
+    },
+    {
+      "module": "FirstInteriorRootSlope",
+      "path": "FirstInteriorRootSlope.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FirstInteriorRootSlope.lean",
+      "sha256": "b3890fa3c2cdb2338009c23e606503e5eed0e95d09e91b1ff49ffb952aee2bbf",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/FirstInteriorRootSlope/receipt.json"
+      ],
+      "bytes": 3985
+    },
+    {
+      "module": "NestedVertexDeletion",
+      "path": "NestedVertexDeletion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/NestedVertexDeletion.lean",
+      "sha256": "44ec17cd99d06966a4e31be6bdf3c1495c079099be262f8b8177889d1902ebca",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/NestedVertexDeletion/receipt.json"
+      ],
+      "bytes": 1386
+    },
+    {
+      "module": "FirstInteriorDegreeTwo",
+      "path": "FirstInteriorDegreeTwo.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FirstInteriorDegreeTwo.lean",
+      "sha256": "9783be31d8c491eccd89848fbf3cfcc2ea3d6b23c47129b20ff6ab512840f3c4",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_163258/FirstInteriorDegreeTwo/receipt.json"
+      ],
+      "bytes": 4197
+    },
+    {
+      "module": "MultipleIsolateBound",
+      "path": "MultipleIsolateBound.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/MultipleIsolateBound.lean",
+      "sha256": "e9cc9c4389ed695c09b5b71b48fc928efb7a7a3ab555bc91c9102c80dc0475a5",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183203/MultipleIsolateBound/receipt.json"
+      ],
+      "bytes": 2065
+    },
+    {
+      "module": "IsolateMassIdentity",
+      "path": "IsolateMassIdentity.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/IsolateMassIdentity.lean",
+      "sha256": "4679843c24423964dadbdc72d8c52504e5f2039917823a4446f94b81bc9c4f1d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183205/IsolateMassIdentity/receipt.json"
+      ],
+      "bytes": 3117
+    },
+    {
+      "module": "InducedIsolateBudget",
+      "path": "InducedIsolateBudget.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/InducedIsolateBudget.lean",
+      "sha256": "eb5a6447baba6da86e58e85a752e314f970aada550de7dc29cfe865a3051b1c2",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183206/InducedIsolateBudget/receipt.json"
+      ],
+      "bytes": 3489
+    },
+    {
+      "module": "InteriorIsolateAlgebra",
+      "path": "InteriorIsolateAlgebra.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/InteriorIsolateAlgebra.lean",
+      "sha256": "a10ffb81efbc305f2b57467168d73718dcb32587ea78ca112e8e4ca732373501",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183208/InteriorIsolateAlgebra/receipt.json"
+      ],
+      "bytes": 2668
+    },
+    {
+      "module": "InteriorPaddingCertificate",
+      "path": "InteriorPaddingCertificate.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/InteriorPaddingCertificate.lean",
+      "sha256": "ddbd8b12c2af56abbda036869eb343105471e4186ea9b23d4a9f726a701064d0",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183212/InteriorPaddingCertificate/receipt.json"
+      ],
+      "bytes": 3322
+    },
+    {
+      "module": "FirstInteriorLargeSupport",
+      "path": "FirstInteriorLargeSupport.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FirstInteriorLargeSupport.lean",
+      "sha256": "c224021ba1aa4fca271031dbdf402f4f29041d2213e1efbe51c1f93b41621749",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183214/FirstInteriorLargeSupport/receipt.json"
+      ],
+      "bytes": 3253
+    },
+    {
+      "module": "SmallComponentCurvature",
+      "path": "SmallComponentCurvature.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/SmallComponentCurvature.lean",
+      "sha256": "e3f3e1bfae8b7802b5fe96411776a45d22dd33ebf1446f055d6d8abfa434a578",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183216/SmallComponentCurvature/receipt.json"
+      ],
+      "bytes": 6203
+    },
+    {
+      "module": "TwoLeafPayment",
+      "path": "TwoLeafPayment.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/TwoLeafPayment.lean",
+      "sha256": "282df0c528f0bbb53454752af61f9a3bca5106e106c03fe93b7f3f79921ee8c3",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183218/TwoLeafPayment/receipt.json"
+      ],
+      "bytes": 2201
+    },
+    {
+      "module": "SupportCurvatureBudget",
+      "path": "SupportCurvatureBudget.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/SupportCurvatureBudget.lean",
+      "sha256": "1d8c8db6f7040488fb95b47ba7fc49ee9763282884103b28c0f43fde5c72d352",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183220/SupportCurvatureBudget/receipt.json"
+      ],
+      "bytes": 4708
+    },
+    {
+      "module": "NextEndSupport",
+      "path": "NextEndSupport.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/NextEndSupport.lean",
+      "sha256": "b8fb0fcbbb389308d56ce077fd02d81b3db279da86603cc895b8b23582708c75",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183222/NextEndSupport/receipt.json"
+      ],
+      "bytes": 4051
+    },
+    {
+      "module": "SupportCoreRelationships",
+      "path": "SupportCoreRelationships.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/SupportCoreRelationships.lean",
+      "sha256": "4bb7b6147139a49e5ec1587fe09d702de85081f713c7d924ffdf0fba7ff9acf1",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183223/SupportCoreRelationships/receipt.json"
+      ],
+      "bytes": 3977
+    },
+    {
+      "module": "LeafContinuationPayment",
+      "path": "LeafContinuationPayment.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafContinuationPayment.lean",
+      "sha256": "29138c478570fa80978daea14d6546816372bbdc7dbe3bcb6896685c205d3708",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183225/LeafContinuationPayment/receipt.json"
+      ],
+      "bytes": 6851
+    },
+    {
+      "module": "StarSupportExclusion",
+      "path": "StarSupportExclusion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/StarSupportExclusion.lean",
+      "sha256": "0d1d2cd2f4f058a65f43951aa3f565d3ae2a0a8b2daf956b18e36de69612b569",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183227/StarSupportExclusion/receipt.json"
+      ],
+      "bytes": 4134
+    },
+    {
+      "module": "ActualSmallComponents",
+      "path": "ActualSmallComponents.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ActualSmallComponents.lean",
+      "sha256": "d86e4c023914b5469dde87ac46afedcff363df02aef92c538c9d16dab99b483d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183230/ActualSmallComponents/receipt.json"
+      ],
+      "bytes": 3602
+    },
+    {
+      "module": "DegreeNeighborTools",
+      "path": "DegreeNeighborTools.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/DegreeNeighborTools.lean",
+      "sha256": "ef28e6bcb4c483c2a65db3c71ad9d88747d4c02c87b63f296c5f051ff29f396d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183233/DegreeNeighborTools/receipt.json"
+      ],
+      "bytes": 3739
+    },
+    {
+      "module": "PrefixForkNeighborhood",
+      "path": "PrefixForkNeighborhood.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixForkNeighborhood.lean",
+      "sha256": "5d33dbd19b300cb473b71928bc5f9ecbd1d28e35d133b2870ac17729eebb0c32",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183235/PrefixForkNeighborhood/receipt.json"
+      ],
+      "bytes": 10215
+    },
+    {
+      "module": "PrefixCenterPairs",
+      "path": "PrefixCenterPairs.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixCenterPairs.lean",
+      "sha256": "ace661032a280b911635721d5948ec5243d7c34b001e50f112960ad33547020e",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183237/PrefixCenterPairs/receipt.json"
+      ],
+      "bytes": 5590
+    },
+    {
+      "module": "PrefixDegreeSums",
+      "path": "PrefixDegreeSums.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixDegreeSums.lean",
+      "sha256": "7e018a490959c5cea409a6d18157256db72db615e694d4865f13cd96aefdda7d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183239/PrefixDegreeSums/receipt.json"
+      ],
+      "bytes": 5711
+    },
+    {
+      "module": "PrefixPairDensity",
+      "path": "PrefixPairDensity.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixPairDensity.lean",
+      "sha256": "db004610c9bdef79683f3882133ab0fb0f8a119c27eefb52eaad952ce090b6d6",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183240/PrefixPairDensity/receipt.json"
+      ],
+      "bytes": 7667
+    },
+    {
+      "module": "PrefixSmallIncidence",
+      "path": "PrefixSmallIncidence.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixSmallIncidence.lean",
+      "sha256": "2b38f7de1258e1cabe4519aee2e5de3725c7cefddbdf12f4d08827a2c73ac9a8",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183242/PrefixSmallIncidence/receipt.json"
+      ],
+      "bytes": 4463
+    },
+    {
+      "module": "PrefixSmallCurvature",
+      "path": "PrefixSmallCurvature.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixSmallCurvature.lean",
+      "sha256": "50dc4f3a86b636079938352ccbfd687a66f85324d9b99650dabb1a61f4ce5376",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183244/PrefixSmallCurvature/receipt.json"
+      ],
+      "bytes": 6531
+    },
+    {
+      "module": "UniformForestPrefix",
+      "path": "UniformForestPrefix.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/UniformForestPrefix.lean",
+      "sha256": "46efc27715abc4dcc5f17410b26d6b5e0cbffb73c2893c87aef8267d36a57da5",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183246/UniformForestPrefix/receipt.json"
+      ],
+      "bytes": 5148
+    },
+    {
+      "module": "PrefixLocal63",
+      "path": "PrefixLocal63.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/PrefixLocal63.lean",
+      "sha256": "af09e897ac67b655c1f300098cbd4eb5e28aac522b45213f3dd6d0cb08169223",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183248/PrefixLocal63/receipt.json"
+      ],
+      "bytes": 7464
+    },
+    {
+      "module": "RefinedForestPrefix",
+      "path": "RefinedForestPrefix.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/RefinedForestPrefix.lean",
+      "sha256": "9e7fa5b1987195f1df0765ba1ae02b61500c970810b4ffcf93dac85f38cacf0d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183249/RefinedForestPrefix/receipt.json"
+      ],
+      "bytes": 5591
+    },
+    {
+      "module": "FirstInteriorLongPath",
+      "path": "FirstInteriorLongPath.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FirstInteriorLongPath.lean",
+      "sha256": "2b9bcf5ad839196513a08544187bd8071e9d3470290641fe92055c10814898dd",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183251/FirstInteriorLongPath/receipt.json"
+      ],
+      "bytes": 7157
+    },
+    {
+      "module": "FirstInteriorBoundaryExclusion",
+      "path": "FirstInteriorBoundaryExclusion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/FirstInteriorBoundaryExclusion.lean",
+      "sha256": "ed88eb2e20f9d63fb92bb20551a5ca35ec07aaed3153f79c203684c4490446b3",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183254/FirstInteriorBoundaryExclusion/receipt.json"
+      ],
+      "bytes": 3819
+    },
+    {
+      "module": "CriticalLeafPhases",
+      "path": "CriticalLeafPhases.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/CriticalLeafPhases.lean",
+      "sha256": "bb23ab3f5ea7f0f43a78baf8c1dfed3e08a07154da6629c6c20b8235018c2fa7",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183256/CriticalLeafPhases/receipt.json"
+      ],
+      "bytes": 3295
+    },
+    {
+      "module": "ForestReturnPhases",
+      "path": "ForestReturnPhases.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ForestReturnPhases.lean",
+      "sha256": "bf4cafce0c05b1d826ea31d6e5cdb8c4b41cdc25982c96c4d058d4bf73041e14",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183258/ForestReturnPhases/receipt.json"
+      ],
+      "bytes": 6353
+    },
+    {
+      "module": "ValleyDeletionCover",
+      "path": "ValleyDeletionCover.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/ValleyDeletionCover.lean",
+      "sha256": "2a2f9a89e781e22516dd2e18298c6a5d259ee108bfbdd38591e985c5b96b703c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183300/ValleyDeletionCover/receipt.json"
+      ],
+      "bytes": 7440
+    },
+    {
+      "module": "OverlapDeletionBudget",
+      "path": "OverlapDeletionBudget.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/OverlapDeletionBudget.lean",
+      "sha256": "99fdabb2e021b2d2ad824d2a1cac25825081a0efae20d07243697e3df06c498a",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183302/OverlapDeletionBudget/receipt.json"
+      ],
+      "bytes": 6580
+    },
+    {
+      "module": "LeafReturnDepth",
+      "path": "LeafReturnDepth.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafReturnDepth.lean",
+      "sha256": "2146d7c561e40062ea7ce23f9729a9d0b2a4f49883a3c1b2092586676220209b",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183304/LeafReturnDepth/receipt.json"
+      ],
+      "bytes": 5748
+    },
+    {
+      "module": "DeletionFirstFall",
+      "path": "DeletionFirstFall.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/DeletionFirstFall.lean",
+      "sha256": "9e7d35ee719f2e7d4b27c7ef31bf508896d79a88fc1bef3e98906a6b6fab94a4",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183305/DeletionFirstFall/receipt.json"
+      ],
+      "bytes": 4415
+    },
+    {
+      "module": "KernelSlopeComparison",
+      "path": "KernelSlopeComparison.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/KernelSlopeComparison.lean",
+      "sha256": "8a3a2f5f469f236102715348bd0591e1a8687552db76514b2d0bdcaa4cd2b155",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183307/KernelSlopeComparison/receipt.json"
+      ],
+      "bytes": 9312
+    },
+    {
+      "module": "BinomialKernel",
+      "path": "BinomialKernel.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/BinomialKernel.lean",
+      "sha256": "2f52fb38dde5316b965739fe62f2a4165daf57b68bfe23bf3a67620ed8538d4f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183309/BinomialKernel/receipt.json"
+      ],
+      "bytes": 4715
+    },
+    {
+      "module": "KernelUnimodality",
+      "path": "KernelUnimodality.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/KernelUnimodality.lean",
+      "sha256": "e5ce81aae189142deefd47b04ca5ca0a2ac23a75d694d937500c6287ff70da73",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183311/KernelUnimodality/receipt.json"
+      ],
+      "bytes": 7653
+    },
+    {
+      "module": "BinomialProduct",
+      "path": "BinomialProduct.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/BinomialProduct.lean",
+      "sha256": "3bd2ebd0d8b8d39fe0b082c64e8cc958b01c0e898436a6e1157bac84dc137143",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183313/BinomialProduct/receipt.json"
+      ],
+      "bytes": 3812
+    },
+    {
+      "module": "LeafBalanceKernel",
+      "path": "LeafBalanceKernel.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafBalanceKernel.lean",
+      "sha256": "1de271e66b4cf0191a41baa2e17713f80cabe8bf92ce1abd4893542940e04137",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183315/LeafBalanceKernel/receipt.json"
+      ],
+      "bytes": 3567
+    },
+    {
+      "module": "LeafBalanceActual",
+      "path": "LeafBalanceActual.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafBalanceActual.lean",
+      "sha256": "ec72c0039899ac44882b70bef476502b9e635c1bb777404dfed305fc4f7184a5",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183317/LeafBalanceActual/receipt.json"
+      ],
+      "bytes": 6024
+    },
+    {
+      "module": "LeafBalanceConcavity",
+      "path": "LeafBalanceConcavity.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/LeafBalanceConcavity.lean",
+      "sha256": "dd6415472ee51f2c6d78e25308d810e78207ff4f5006a30ebf16c99ac8ca7794",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183319/LeafBalanceConcavity/receipt.json"
+      ],
+      "bytes": 8718
+    },
+    {
+      "module": "CentralWindowClosure",
+      "path": "CentralWindowClosure.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/CentralWindowClosure.lean",
+      "sha256": "f280147742d6aa2a2f65f176713778f77534d572d978061451da8e9011eb713b",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183321/CentralWindowClosure/receipt.json"
+      ],
+      "bytes": 3130
+    },
+    {
+      "module": "CardinalityMoments",
+      "path": "CardinalityMoments.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Legacy/CardinalityMoments.lean",
+      "sha256": "5a9a3aeb9a0c5f6871fb4b4c4da2abb467f55bad65b178ddc59941798fc67450",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/legacy_rebuild_runs/20260928_183323/CardinalityMoments/receipt.json"
+      ],
+      "bytes": 4486
+    },
+    {
+      "module": "Erdos993Analytic.GraphMean",
+      "path": "Erdos993Analytic/GraphMean.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/GraphMean.lean",
+      "sha256": "52fcb866122a3ddee0b085209f1f0206c0db51c981d4b6d1a8554d45aecca8d1",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.GraphMean/receipt.json"
+      ],
+      "bytes": 4596
+    },
+    {
+      "module": "Erdos993Analytic.CardinalityLaw",
+      "path": "Erdos993Analytic/CardinalityLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/CardinalityLaw.lean",
+      "sha256": "9993bd3ecd4cb6cd96f1a5665024dccae43eda74c896c631e23fc2df2d2b194d",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.CardinalityLaw/receipt.json"
+      ],
+      "bytes": 2942
+    },
+    {
+      "module": "Erdos993Analytic.FiniteLaw",
+      "path": "Erdos993Analytic/FiniteLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/FiniteLaw.lean",
+      "sha256": "d63c7d02c7d7b16c7901139b6fddde97d15ff311c08205fcc4fc2e97359f3c94",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.FiniteLaw/receipt.json"
+      ],
+      "bytes": 4759
+    },
+    {
+      "module": "Erdos993Analytic.JointLaw",
+      "path": "Erdos993Analytic/JointLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/JointLaw.lean",
+      "sha256": "0c069a43870c8f0bb76f7a583b6680c9ed71c6165f58cb02ea916c5c69990d47",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.JointLaw/receipt.json"
+      ],
+      "bytes": 6937
+    },
+    {
+      "module": "Erdos993Analytic.FinitePartition",
+      "path": "Erdos993Analytic/FinitePartition.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/FinitePartition.lean",
+      "sha256": "ad11084d684d3bb362dcb122d3b19532f11a7588540b86704b0c4fae4c7b5f37",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.FinitePartition/receipt.json"
+      ],
+      "bytes": 5423
+    },
+    {
+      "module": "Erdos993Analytic.GraphExposure",
+      "path": "Erdos993Analytic/GraphExposure.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/GraphExposure.lean",
+      "sha256": "34985f609dd4b9ec705758b2a6d9c72b4ef7fcc2cc98a87c52ebbaacda05b6a1",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.GraphExposure/receipt.json"
+      ],
+      "bytes": 3728
+    },
+    {
+      "module": "Erdos993Analytic.ResidualSupport",
+      "path": "Erdos993Analytic/ResidualSupport.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ResidualSupport.lean",
+      "sha256": "ffab73c853cd21171da61637a31b350a2ae3ba85efd7e8304b0a87a8eed90d62",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ResidualSupport/receipt.json"
+      ],
+      "bytes": 6504
+    },
+    {
+      "module": "Erdos993Analytic.ConditionalDeletion",
+      "path": "Erdos993Analytic/ConditionalDeletion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ConditionalDeletion.lean",
+      "sha256": "c852de6bd219673b4a8f86450c244fea447b21b8662e66de4ba904accb4f6e71",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ConditionalDeletion/receipt.json"
+      ],
+      "bytes": 5013
+    },
+    {
+      "module": "Erdos993Analytic.FiniteProjection",
+      "path": "Erdos993Analytic/FiniteProjection.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/FiniteProjection.lean",
+      "sha256": "b85b00aa8ba956df7e9bb380fc278800285ebcb8613a5a3eaca160423dbd7880",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.FiniteProjection/receipt.json"
+      ],
+      "bytes": 6953
+    },
+    {
+      "module": "Erdos993Analytic.ResidualLaw",
+      "path": "Erdos993Analytic/ResidualLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ResidualLaw.lean",
+      "sha256": "d9b96d2ef70376d63b839eef266a51c02a079e9fed7a470a609bb5768faebcf7",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ResidualLaw/receipt.json"
+      ],
+      "bytes": 7898
+    },
+    {
+      "module": "Erdos993Analytic.ConditionalInclusion",
+      "path": "Erdos993Analytic/ConditionalInclusion.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ConditionalInclusion.lean",
+      "sha256": "ddf598a6fa0217a30872342d469b2ca8d75020ec7851859a355d98b7c798fadc",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ConditionalInclusion/receipt.json"
+      ],
+      "bytes": 4679
+    },
+    {
+      "module": "Erdos993Analytic.ConditionalMoments",
+      "path": "Erdos993Analytic/ConditionalMoments.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ConditionalMoments.lean",
+      "sha256": "a0d43602abe9dadf51ea82d681859f8351e448035b3df7a56b1ae03ffb4f9e4f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ConditionalMoments/receipt.json"
+      ],
+      "bytes": 6043
+    },
+    {
+      "module": "Erdos993Analytic.ResidualGraphLaw",
+      "path": "Erdos993Analytic/ResidualGraphLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ResidualGraphLaw.lean",
+      "sha256": "83b2727b3d9becea720887290f134887e7e5b36e870b65128adf0fa33178c28f",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ResidualGraphLaw/receipt.json"
+      ],
+      "bytes": 5682
+    },
+    {
+      "module": "Erdos993Analytic.GeneralActivityLaw",
+      "path": "Erdos993Analytic/GeneralActivityLaw.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/GeneralActivityLaw.lean",
+      "sha256": "2b394b009fe34908d11b07f668ad264cc786861858ba422518d81a2250b67627",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.GeneralActivityLaw/receipt.json"
+      ],
+      "bytes": 3999
+    },
+    {
+      "module": "Erdos993Analytic.ActivityVertexRecurrence",
+      "path": "Erdos993Analytic/ActivityVertexRecurrence.lean",
+      "original_source": "closeout_2026-09-08/mathlib_analytic/Erdos993Analytic/ActivityVertexRecurrence.lean",
+      "sha256": "f9665fce13fcc4b2aac728fb8970469da9c97b113305f492fa26017ce8f8945c",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor38_release_2026-09-28/analytic_bridge_phases/20260928_185306/Erdos993Analytic.ActivityVertexRecurrence/receipt.json"
+      ],
+      "bytes": 1908
+    },
+    {
+      "module": "Floor216GraphPolynomial",
+      "path": "Floor216GraphPolynomial.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216GraphPolynomial.lean",
+      "sha256": "efac106107d8eb7c1a577945e7f2e9ca4573c1797b95595506a2d02b148ed75a",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216GraphPolynomial_20260919_185347/receipt.json"
+      ],
+      "bytes": 6331
+    },
+    {
+      "module": "Floor216LogConcavity",
+      "path": "Floor216LogConcavity.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216LogConcavity.lean",
+      "sha256": "2810457d4049398ada857c9a844f8515daa4d6e9f0b984153077e6671524c5c7",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216LogConcavity_20260919_184812/receipt.json"
+      ],
+      "bytes": 6280
+    },
+    {
+      "module": "Floor216ConvolutionClosure",
+      "path": "Floor216ConvolutionClosure.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216ConvolutionClosure.lean",
+      "sha256": "b1e14a67b15631a7ea6c3570a819695fef9c4f76ceaa9119b1a8ce3be0bd9bc7",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216ConvolutionClosure_20260919_204048/receipt.json"
+      ],
+      "bytes": 6112
+    },
+    {
+      "module": "Floor216NoHoles",
+      "path": "Floor216NoHoles.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216NoHoles.lean",
+      "sha256": "69bf0b0d303f75f8aaf57c1f9170db9bc41893b7752adb05dba164e55a92f4fd",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216NoHoles_20260919_204434/receipt.json"
+      ],
+      "bytes": 3715
+    },
+    {
+      "module": "Floor216Relabeling",
+      "path": "Floor216Relabeling.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Relabeling.lean",
+      "sha256": "3fd3a54a181746c73b0d2426770cdac4398f5ffa05adc3e73365cd4f7e402e02",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Relabeling_20260919_210857/receipt.json"
+      ],
+      "bytes": 2842
+    },
+    {
+      "module": "Floor216Coverage",
+      "path": "Floor216Coverage.lean",
+      "original_source": "closeout_2026-09-08/floor_lean_2026-09-19/Floor216Coverage.lean",
+      "sha256": "9d93053899123f565ac1750488480b7ad422f3f5d3459dfe8b05ec0e5b7ff6da",
+      "original_build_receipts": [
+        "closeout_2026-09-08/floor_lean_2026-09-19/builds/Floor216Coverage_20260919_184407/receipt.json"
+      ],
+      "bytes": 4316
+    }
+  ],
+  "generated_certificate_banks_included": false
+}

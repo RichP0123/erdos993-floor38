@@ -1,0 +1,23 @@
+# Local dependency caches and generated proof/build artifacts.
+.lake/
+**/.lake/
+__pycache__/
+*.pyc
+.venv/
+*.olean
+*.olean.server
+*.olean.private
+*.ilean
+*.ir
+*.exe
+*.o
+*.obj
+
+# Large archives are attached as release assets, not ordinary Git files.
+*.zip
+
+# Local editor and machine configuration.
+.DS_Store
+Thumbs.db
+.env
+.env.*

@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "kind": "Public derivative of completed local evidence; not a fresh compiler receipt",
+  "local_proof_status": "passed",
+  "theorem": "Erdos993.ForestCore.mathlib_forest_unimodal_through_thirty_seven",
+  "signature": "forall {V : Type u} [Fintype V] (G : SimpleGraph V), Fintype.card V <= 37 -> G.IsAcyclic -> Erdos993.Unimodal (fun k => (G.indepSetFinset k).card)",
+  "axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "no_original_bound_premise_remaining": true,
+  "ordinary_bridge_target_modules": [
+    {
+      "module": "ForestCore.Graph",
+      "source_sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c",
+      "object_sha256": "bd91e07e28efd00de1c8cb83e376ed9763b0a5fe65fe0e880b48917ff24574b8",
+      "original_receipt_sha256": "ec1a8c3c3d99c2bf7ab745afce0ddbc4e4914d2d8719363d32db0076480e4f53",
+      "direct_imports": {
+        "ForestStatements": {
+          "object_sha256": "50e5367034c0239dc3363306f794b6d5b98dba8260747c480a598feb7c97813f",
+          "artifact_hashes": {
+            "ForestStatements.olean": "50e5367034c0239dc3363306f794b6d5b98dba8260747c480a598feb7c97813f"
+          }
+        },
+        "Mathlib.Combinatorics.SimpleGraph.Basic": {
+          "object_sha256": "f96951eaa9b849e0b80946756523970789d39c07ee2d39b86a553827e53b1041",
+          "artifact_hashes": {
+            "Basic.olean": "f96951eaa9b849e0b80946756523970789d39c07ee2d39b86a553827e53b1041",
+            "Basic.olean.server": "03cec8eeca93cad4b38cbc4ad51acabd6740ba3d9297d9a134c4217c5e4fa309",
+            "Basic.olean.private": "8425c984231ae7c8bf377f6f60fe82d7213fcc4c60b432966f844891d9c91453",
+            "Basic.ir": "63caeeb66bd9f26a78cce35ef5ab6a92ea32f60be4c90f43fc6d14f51f7d0a36"
+          }
+        }
+      }
+    },
+    {
+      "module": "ForestCore.AcyclicBridge",
+      "source_sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045",
+      "object_sha256": "8725374b47c5bae3d0786ffbb7c4834debab5e158606150b05f7c6bb9b234553",
+      "original_receipt_sha256": "efe58b6228cfcf1fc9ce2f619de8bafc22e5c2f71f33e57b5386991aa75b6d86",
+      "direct_imports": {
+        "ForestCore.Graph": {
+          "object_sha256": "bd91e07e28efd00de1c8cb83e376ed9763b0a5fe65fe0e880b48917ff24574b8",
+          "artifact_hashes": {
+            "Graph.olean": "bd91e07e28efd00de1c8cb83e376ed9763b0a5fe65fe0e880b48917ff24574b8"
+          }
+        },
+        "Mathlib.Combinatorics.SimpleGraph.Acyclic": {
+          "object_sha256": "71b219fe06dea4ec3f440884eceaa7b7728872f657b734c879fab7b1c0f5cd4c",
+          "artifact_hashes": {
+            "Acyclic.olean": "71b219fe06dea4ec3f440884eceaa7b7728872f657b734c879fab7b1c0f5cd4c",
+            "Acyclic.olean.server": "fb17bd30873141ed3e8565d5b999fedc51c31710eb53e0c58519e83de1146b8c",
+            "Acyclic.olean.private": "9bb4414336612fab04128740c6e44678afc1222e2f524a88f10530b7db1c12ff",
+            "Acyclic.ir": "d2e415809cc79523f3f8c4c0ead779ae484ad6d5f00133ae55234e0a9af0ce25"
+          }
+        },
+        "Mathlib.Combinatorics.SimpleGraph.Circulant": {
+          "object_sha256": "2d2ef4e852db636c5e21576a5d449f033316059ef386dc6c0af8ca22e15ea38c",
+          "artifact_hashes": {
+            "Circulant.olean": "2d2ef4e852db636c5e21576a5d449f033316059ef386dc6c0af8ca22e15ea38c",
+            "Circulant.olean.server": "f3223bf36732406aa30e024be1dc3723c7bae3de6106915b1a4d343e918a8874",
+            "Circulant.olean.private": "b862e2226b311323bb2b11129eee65090d27d4640be70fb097a44267f60c36e1",
+            "Circulant.ir": "f9b73ee660a57ad1e4e5bcdf78dbac4db3b19ea33caecfb6ab9d24015b236eca"
+          }
+        }
+      }
+    },
+    {
+      "module": "ForestCore.CountingBridge",
+      "source_sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958",
+      "object_sha256": "1a4335eb6295abbd2b262dbe956d2b9af5e0d0ae81a03a6cab58782e24408a60",
+      "original_receipt_sha256": "59e969019cbdba0c9138363ea1201043183f5a440d751bf82cfdc1fac34c81e2",
+      "direct_imports": {
+        "ForestCore.Graph": {
+          "object_sha256": "bd91e07e28efd00de1c8cb83e376ed9763b0a5fe65fe0e880b48917ff24574b8",
+          "artifact_hashes": {
+            "Graph.olean": "bd91e07e28efd00de1c8cb83e376ed9763b0a5fe65fe0e880b48917ff24574b8"
+          }
+        },
+        "Mathlib.Combinatorics.SimpleGraph.Clique": {
+          "object_sha256": "ad4be615413ba0774494005c1b24967ab7e6b6a57fdc4423d49d6912c2f2191e",
+          "artifact_hashes": {
+            "Clique.olean": "ad4be615413ba0774494005c1b24967ab7e6b6a57fdc4423d49d6912c2f2191e",
+            "Clique.olean.server": "5eba3fa6d798a6c1bdb13ed7122893b9770150d665a99864136ec61333a193ee",
+            "Clique.olean.private": "f7538a3048405ada013b0c4dc76186ae3e4e7a8f8b01101b1847c58368c3c17a",
+            "Clique.ir": "e1c63d25fefc52331a3fcfaf6bab3519034e2d32229ccf218416c8c982531123"
+          }
+        },
+        "Mathlib.Data.Finset.Sort": {
+          "object_sha256": "1f2666c40c29347b34e9d863e131355475ab9a519cd1179e97dfdc1e58f25ed9",
+          "artifact_hashes": {
+            "Sort.olean": "1f2666c40c29347b34e9d863e131355475ab9a519cd1179e97dfdc1e58f25ed9",
+            "Sort.olean.server": "1b2aad0d6135e62401c6cebaef80be51976d3475896e6ac2eb869811e6e6473a",
+            "Sort.olean.private": "047099a7713e9f0024a5e5c5dbc7800642868e05cd44d1062d62e7af8971e1c1",
+            "Sort.ir": "cc23e27fa0107feef861b629ad219d37d1faaa6c95c28759df05aebdf68809bc"
+          }
+        }
+      }
+    },
+    {
+      "module": "ForestCore.Transfer",
+      "source_sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6",
+      "object_sha256": "894f23bde88b96610b14a7d548871dc3127145b98e533567584118fe1cd94cd0",
+      "original_receipt_sha256": "d7608358040c9d41393251d1c7f213d1b8e49590775426dc00c4674185254fd7",
+      "direct_imports": {
+        "ForestCore.AcyclicBridge": {
+          "object_sha256": "8725374b47c5bae3d0786ffbb7c4834debab5e158606150b05f7c6bb9b234553",
+          "artifact_hashes": {
+            "AcyclicBridge.olean": "8725374b47c5bae3d0786ffbb7c4834debab5e158606150b05f7c6bb9b234553"
+          }
+        },
+        "ForestCore.CountingBridge": {
+          "object_sha256": "1a4335eb6295abbd2b262dbe956d2b9af5e0d0ae81a03a6cab58782e24408a60",
+          "artifact_hashes": {
+            "CountingBridge.olean": "1a4335eb6295abbd2b262dbe956d2b9af5e0d0ae81a03a6cab58782e24408a60"
+          }
+        },
+        "Mathlib.Data.Fintype.EquivFin": {
+          "object_sha256": "163c1a27f176a87b9b7756e2225c686f2aabdf6a2aa4eba6103fc53d5d2949d8",
+          "artifact_hashes": {
+            "EquivFin.olean": "163c1a27f176a87b9b7756e2225c686f2aabdf6a2aa4eba6103fc53d5d2949d8",
+            "EquivFin.olean.server": "d03590a9621b21d143afc5b17d4d0f6dbe200b3ebb927912f8ab74d9bb5e8e77",
+            "EquivFin.olean.private": "a2639636ae5afdd5de176026aed39575760a8a632f837271cce1d11de7077481",
+            "EquivFin.ir": "db3f872123796171c94c47ee4817ecbf0cf9afc2dfc01622d1edd92afc5b699c"
+          }
+        }
+      }
+    },
+    {
+      "module": "ForestCore.MathlibFloor38Target",
+      "source_sha256": "34da963d17c71552d9f25ff7c74ffc70c173b785229f0b49dfd9a39852c55192",
+      "object_sha256": "8a644d298850a5a5b568e88873a1f326cee2c3a2e2668c86d9bd532a66ae444f",
+      "original_receipt_sha256": "33f6542bc46e6ca66a897bc8dd8db205084332c1aac11500803527d03a6c7637",
+      "direct_imports": {
+        "ForestCore.Transfer": {
+          "object_sha256": "894f23bde88b96610b14a7d548871dc3127145b98e533567584118fe1cd94cd0",
+          "artifact_hashes": {
+            "Transfer.olean": "894f23bde88b96610b14a7d548871dc3127145b98e533567584118fe1cd94cd0"
+          }
+        }
+      }
+    }
+  ],
+  "final_object_sha256": "b6095b384e72725e98dd74fca15ced81e6a834c3fb615237924754f25ea826df",
+  "final_object_bytes": 6960,
+  "fresh_reimport_object_sha256": "ff071e75258a8f850a9d45c56bc2b5f6955ac00bb80d8f17acb0e66c573e9979",
+  "original_final_receipt_sha256": "aae0156a1c6d8c3075d0844d8e178e20c10d4e0dfd8e6f27f4039ca9adeabfa3",
+  "original_input_pins_sha256": "d24d43e67957b1abea408a9ce955ea8ec35abeab4f47e8a115e9b07fcd9e86b4",
+  "original_commands_sha256": "252fe145f17527f510805e3a3abc21d31763248cc3b1fca77744d9da828fc150",
+  "original_import_companion_presence_sha256": "bb70bf3cfc154ca071e3a7fa5a447e50c182689ef32c1fb399f6abd7db4e54f7",
+  "original_full_corpus_audit_sha256": "323a4c545e6867718d24d2fc0f6f0002497d65f7d1ec70b2a1842f78ae2414e9",
+  "original_corpus_rebuilt": false,
+  "original_corpus_rehashed_in_corollary_run": false,
+  "fresh_literal_type_and_universes_checked": true,
+  "fresh_actual_object_reimport_checked": true,
+  "kernel_negative_control_rejected": true,
+  "full_union": {
+    "modules": 22603,
+    "kernel_constants": 8327983,
+    "same_name_duplicates_accepted": 385,
+    "full_name_hash_collision_groups": 16240,
+    "conflicts": 0,
+    "duplicate_negative_control_rejected": true,
+    "hash_collision_control_passed": true
+  },
+  "stages": [
+    {
+      "phase": "build_ForestCore_Graph",
+      "exit_code": 0,
+      "elapsed_seconds": 6.09649680001894,
+      "peak_private_bytes": 217649152,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "build_ForestCore_AcyclicBridge",
+      "exit_code": 0,
+      "elapsed_seconds": 6.7384283999563195,
+      "peak_private_bytes": 304562176,
+      "log_sha256": "9a06db9f29352831aa0443eb00112b7373af29f0e27fef923722d005b6eee5b0"
+    },
+    {
+      "phase": "build_ForestCore_CountingBridge",
+      "exit_code": 0,
+      "elapsed_seconds": 6.522918000002392,
+      "peak_private_bytes": 258965504,
+      "log_sha256": "a96e4f753af447affdb2bd2e0ee827181a8de2fdc0642c3f52a615801b8192d1"
+    },
+    {
+      "phase": "build_ForestCore_Transfer",
+      "exit_code": 0,
+      "elapsed_seconds": 6.749877499998547,
+      "peak_private_bytes": 295215104,
+      "log_sha256": "b3c7160bb60069c6bca49c8c76ddbd6722cf43137479ddf3f75e4d03eeb94c88"
+    },
+    {
+      "phase": "build_ForestCore_MathlibFloor38Target",
+      "exit_code": 0,
+      "elapsed_seconds": 7.619800099986605,
+      "peak_private_bytes": 287158272,
+      "log_sha256": "9b840367048a1e65f368cf8d855b7155a2f384771e61194c00ed3f0303147fb6"
+    },
+    {
+      "phase": "wrapper_lean_c",
+      "exit_code": 0,
+      "elapsed_seconds": 2.754823299997952,
+      "peak_private_bytes": 186597376,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "wrapper_leanc",
+      "exit_code": 0,
+      "elapsed_seconds": 6.331521400017664,
+      "peak_private_bytes": 322019328,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "union_auditor_lean_c",
+      "exit_code": 0,
+      "elapsed_seconds": 1.9014422000036575,
+      "peak_private_bytes": 185094144,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "union_auditor_leanc",
+      "exit_code": 0,
+      "elapsed_seconds": 2.531139999977313,
+      "peak_private_bytes": 289005568,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "phase": "assemble",
+      "exit_code": 0,
+      "elapsed_seconds": 420.68523450003704,
+      "peak_private_bytes": 997261312,
+      "log_sha256": "bf1eb6ae0cc358522afe856026be00df344b1959a062d50e091bbc126bc8991b"
+    },
+    {
+      "phase": "reimport",
+      "exit_code": 0,
+      "elapsed_seconds": 325.6212879999657,
+      "peak_private_bytes": 960589824,
+      "log_sha256": "ce35d9d79599b7018c894ea2b090dc2f1698cae81a196f20596e7461c7037e50"
+    },
+    {
+      "phase": "full_import_union",
+      "exit_code": 0,
+      "elapsed_seconds": 166.12248990003718,
+      "peak_private_bytes": 869617664,
+      "log_sha256": "296c6cbd89c5866a052574e22686cd90b842b0ef134866de46e405161609813b"
+    }
+  ],
+  "trust_boundary": "Installed pinned Lean4.30 and Mathlib compiled libraries; original corpus reused from its successful full audit",
+  "full_exported_portable_build_exercised": false,
+  "public_manual_corollary_rebuild_exercised": false,
+  "compiler_sha256": {
+    "lean.exe": "8132256d484b8ecc4561bec70abd1271f4c0d03badbc3bc272f6c4053af9fdbc",
+    "leanc.exe": "f8c6dac9671f67020c223c3236acf456daf893da8f578fa399da79510f78b37b"
+  },
+  "native_tools": {
+    "MathlibFloor38Assembler": {
+      "source_sha256": "e8b0785c220547b176b12aaf2104f44890a122518f50a766cc467f5b25b850eb",
+      "generated_c_sha256": "1b56ff6aee71ef6173867525c59f6b2ebe5ae0a107048ac9aa6d0c21a2eaab1d",
+      "executable_sha256": "4097fb45b302a522b2bdc91b9899bb94908d6525813e7c702b65486555055867"
+    },
+    "MathlibFloor38ImportUnionAudit": {
+      "source_sha256": "c9e7f2fd98f18c7d0aa954f42ff90b09ab3269f6d684fc6f8d75bafb94186b56",
+      "generated_c_sha256": "b7e34ab4253fb66546ec26c8f42a1096d36871fd3674efc8453e0b48c415c669",
+      "executable_sha256": "b38e4e67e09623eeee0f2814327048854775eac167f452cfd6f0aee7aaa6d8db"
+    }
+  },
+  "original_declaration_guards": {
+    "assemble": {
+      "unchanged_original_constant_info_and_ownership": true,
+      "cached_theorems": 696,
+      "uncached_body_closed_theorems": 5,
+      "total_theorems": 701,
+      "global_new_names_verified_fresh": 2
+    },
+    "reimport": {
+      "unchanged_original_constant_info_and_ownership": true,
+      "cached_theorems": 696,
+      "uncached_body_closed_theorems": 6,
+      "total_theorems": 702,
+      "global_new_names_verified_fresh": 2
+    }
+  }
+}

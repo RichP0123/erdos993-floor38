@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "kind": "Exact-byte public source selection from successful local corollary run",
+  "files": [
+    {
+      "path": "corollary/src/ForestCore/Graph.lean",
+      "module": "ForestCore.Graph",
+      "kind": "ordinary_Lean_proof_source",
+      "sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c",
+      "bytes": 768,
+      "imports": [
+        "ForestStatements",
+        "Mathlib.Combinatorics.SimpleGraph.Basic"
+      ]
+    },
+    {
+      "path": "corollary/src/ForestCore/AcyclicBridge.lean",
+      "module": "ForestCore.AcyclicBridge",
+      "kind": "ordinary_Lean_proof_source",
+      "sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045",
+      "bytes": 3067,
+      "imports": [
+        "ForestCore.Graph",
+        "Mathlib.Combinatorics.SimpleGraph.Acyclic",
+        "Mathlib.Combinatorics.SimpleGraph.Circulant"
+      ]
+    },
+    {
+      "path": "corollary/src/ForestCore/CountingBridge.lean",
+      "module": "ForestCore.CountingBridge",
+      "kind": "ordinary_Lean_proof_source",
+      "sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958",
+      "bytes": 3535,
+      "imports": [
+        "ForestCore.Graph",
+        "Mathlib.Combinatorics.SimpleGraph.Clique",
+        "Mathlib.Data.Finset.Sort"
+      ]
+    },
+    {
+      "path": "corollary/src/ForestCore/Transfer.lean",
+      "module": "ForestCore.Transfer",
+      "kind": "ordinary_Lean_proof_source",
+      "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6",
+      "bytes": 5706,
+      "imports": [
+        "ForestCore.AcyclicBridge",
+        "ForestCore.CountingBridge",
+        "Mathlib.Data.Fintype.EquivFin"
+      ]
+    },
+    {
+      "path": "corollary/src/ForestCore/MathlibFloor38Target.lean",
+      "module": "ForestCore.MathlibFloor38Target",
+      "kind": "ordinary_Lean_proof_source",
+      "sha256": "34da963d17c71552d9f25ff7c74ffc70c173b785229f0b49dfd9a39852c55192",
+      "bytes": 1211,
+      "imports": [
+        "ForestCore.Transfer"
+      ]
+    },
+    {
+      "path": "tools/MathlibFloor38Assembler.lean",
+      "kind": "native_Lean_tool_source",
+      "sha256": "e8b0785c220547b176b12aaf2104f44890a122518f50a766cc467f5b25b850eb",
+      "bytes": 21458,
+      "copied_audited_origin_sha256": "b3a6972a7b80849aa5a7787b4718535e421218896efbabd87b8450e9d72f8059"
+    },
+    {
+      "path": "tools/MathlibFloor38ImportUnionAudit.lean",
+      "kind": "native_Lean_tool_source",
+      "sha256": "c9e7f2fd98f18c7d0aa954f42ff90b09ab3269f6d684fc6f8d75bafb94186b56",
+      "bytes": 15602,
+      "copied_audited_origin_sha256": "79693c0e392272048e8004c82063f3436094353a2b95fadd6ce74ef49498b6d5"
+    }
+  ],
+  "toolchain": {
+    "version": "4.30.0",
+    "commit": "d024af099ca4bf2c86f649261ebf59565dc8c622"
+  },
+  "upstream_lock": "Use the exact lake-manifest.json from the full proof source archive",
+  "original_final_receipt_sha256": "aae0156a1c6d8c3075d0844d8e178e20c10d4e0dfd8e6f27f4039ca9adeabfa3",
+  "no_new_proof_build": true,
+  "source_scan": {
+    "absolute_machine_paths_found": []
+  },
+  "support_files": [
+    {
+      "path": "corollary/README.md",
+      "sha256": "8a85b80cff76bbca7139ab2d32eb1a944fdef6571a40f5932023f46915bdc897",
+      "bytes": 7177
+    },
+    {
+      "path": "corollary/REVIEWER_CHECKLIST.md",
+      "sha256": "6ce1d1d80b0a3a750fcb167b72b7396bad0d67b2df905b0f9bcd26108ba5b671",
+      "bytes": 3081
+    },
+    {
+      "path": "corollary/PROOF_EVIDENCE_SUMMARY.json",
+      "sha256": "1cedbb5a7604a69cd92279acb6731edb50f3986111fe3e521e9db10277121c25",
+      "bytes": 13794
+    },
+    {
+      "path": "tools/verify_corollary_sources.py",
+      "sha256": "00055ded201cb73376d5f02491dabeb1e889385ee67b499a69744874ce3b5506",
+      "bytes": 1966
+    }
+  ]
+}

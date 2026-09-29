@@ -1,0 +1,17 @@
+name = "forest_core"
+version = "0.1.0"
+defaultTargets = ["ForestCore"]
+
+[[require]]
+name = "mathlib"
+path = "../mathlib_analytic/.lake/packages/mathlib"
+
+[[lean_lib]]
+name = "ForestCore"
+
+[[lean_lib]]
+name = "Erdos993Analytic"
+
+[[lean_lib]]
+name = "PreservedProofs"
+roots = ["ForestStatements", "Floor216Algebra", "Floor216Intervals", "Floor216Enclosures", "ClosureInterfaces", "NoRecoveryFoundation", "CriticalExtraction", "FloorSafeWindow203", "Floor216Acceptance", "GraphExtensionCounting", "ForestLeafStructure", "MarkedInjectionAudit", "ForestParentCertificate", "FiniteMarkedFamilies", "RootingBridgeAudit", "ForestCurvature", "GraphExtensionUpper", "LeafBoundaryTransfer", "ForestEndSupport", "IsolatePaddingCounts", "EndSupportPadding", "QuarterEndBudget", "QuarterPaddingCertificate", "QuarterBoundaryExclusion", "IsolateCurvature", "VertexIncidence", "SingleIsolateBound", "LinearFactorUnimodality", "LeafAttachment", "RootedSecondGradientGoal", "LeafAttachmentCounting", "WeightedInducedCounting", "RootedJointGrowth", "SeparatedRootCurvature", "PrefixRootBudget", "ForestOverlapCounting", "PrefixForkPacking", "PrefixPairIncidence", "PrefixPartitionCounting", "PrefixLocalCounting", "PrefixSubsetTotals", "ForestDeletionSeparation", "LeafIncidenceBounds", "FirstInteriorRootSlope", "NestedVertexDeletion", "FirstInteriorDegreeTwo", "MultipleIsolateBound", "IsolateMassIdentity", "InducedIsolateBudget", "InteriorIsolateAlgebra", "InteriorPaddingCertificate", "FirstInteriorLargeSupport", "SmallComponentCurvature", "TwoLeafPayment", "SupportCurvatureBudget", "NextEndSupport", "SupportCoreRelationships", "LeafContinuationPayment", "StarSupportExclusion", "ActualSmallComponents", "DegreeNeighborTools", "PrefixForkNeighborhood", "PrefixCenterPairs", "PrefixDegreeSums", "PrefixPairDensity", "PrefixSmallIncidence", "PrefixSmallCurvature", "UniformForestPrefix", "PrefixLocal63", "RefinedForestPrefix", "FirstInteriorLongPath", "FirstInteriorBoundaryExclusion", "CriticalLeafPhases", "ForestReturnPhases", "ValleyDeletionCover", "OverlapDeletionBudget", "LeafReturnDepth", "DeletionFirstFall", "KernelSlopeComparison", "BinomialKernel", "KernelUnimodality", "BinomialProduct", "LeafBalanceKernel", "LeafBalanceActual", "LeafBalanceConcavity", "CentralWindowClosure", "CardinalityMoments", "Floor216GraphPolynomial", "Floor216LogConcavity", "Floor216ConvolutionClosure", "Floor216NoHoles", "Floor216Relabeling", "Floor216Coverage"]

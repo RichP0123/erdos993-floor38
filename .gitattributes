@@ -1,0 +1,6 @@
+# Preserve the exact bytes pinned by source and release manifests.
+# In particular, do not normalize mixed historical Lean line endings.
+* -text
+*.lean diff
+*.md diff
+*.py diff

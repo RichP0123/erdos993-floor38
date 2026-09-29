@@ -1,0 +1,659 @@
+{
+  "kind": "Public file-integrity manifest; not a compiler receipt",
+  "publication": {
+    "public_name": "Rich Patterson",
+    "repository_url": "https://github.com/RichP0123/erdoss993-floor38",
+    "release_tag": "v0.1.0-floor38",
+    "proposed_release_tag": "v0.1.0-floor38",
+    "release_date": null,
+    "license_scope": null,
+    "license_grant_finalized": false,
+    "pending": [
+      "scoped_license_grant",
+      "license_scope",
+      "actual_release_date"
+    ]
+  },
+  "mathematical_scope": "Every finite simple forest with at most 37 vertices has a unimodal independence sequence",
+  "Lean_compiled_this_packaging_run": false,
+  "files": {
+    ".gitattributes": {
+      "bytes": 177,
+      "sha256": "c53f2a5cb95fb706a12e6f588641d4dee7a0fb83ae44fa7ae6afe258a2767f62"
+    },
+    ".gitignore": {
+      "bytes": 329,
+      "sha256": "5f612d13dcccc4bc14ad0ccf51f7d40cf0e997e04a33b569edb512b7313ebfde"
+    },
+    "CITATION.cff.in": {
+      "bytes": 1180,
+      "sha256": "5516c15d8c205a32127504a01c494f112b81004f9b2ff5fea600b16df05ffbfd"
+    },
+    "CONTRIBUTORS.md": {
+      "bytes": 2796,
+      "sha256": "c08a67ead2508b424b40909609b1b7bc250898318a73231378ee2303a7d610da"
+    },
+    "LICENSE_SCOPE.md": {
+      "bytes": 2075,
+      "sha256": "cad606f593633a715f1dd2d2289ced5fcfc57f5263d692f57240adbbdfc210b2"
+    },
+    "NOTICE.md": {
+      "bytes": 2097,
+      "sha256": "b41c15b91251747a162224007b8f40c7feb5a58253686fbe665ab3845d60d1a2"
+    },
+    "README.md": {
+      "bytes": 6128,
+      "sha256": "ed63067552cafe69f7231d2d60610910fd4a8b35f302dfaf5a4de0e4a3b4e4b2"
+    },
+    "verify_release.py": {
+      "bytes": 3118,
+      "sha256": "d35f5ed57352ce6ec2cb848775da6cb9d0626cd14a27c0998b7b64544c7f4066"
+    },
+    ".github/ISSUE_TEMPLATE/reproduction.md": {
+      "bytes": 1227,
+      "sha256": "5de414109a9c9fda57bf56d059abfbd9caf617f0fa4bb189754c82b45864dfe7"
+    },
+    "core/ActualSmallComponents.lean": {
+      "bytes": 3602,
+      "sha256": "d86e4c023914b5469dde87ac46afedcff363df02aef92c538c9d16dab99b483d"
+    },
+    "core/BUILD_EVIDENCE.json": {
+      "bytes": 13289,
+      "sha256": "1491724de7d0be9c295036c2027c4b3df2dd20b1aaf194631ac3fcef9897d8dd"
+    },
+    "core/BinomialKernel.lean": {
+      "bytes": 4715,
+      "sha256": "2f52fb38dde5316b965739fe62f2a4165daf57b68bfe23bf3a67620ed8538d4f"
+    },
+    "core/BinomialProduct.lean": {
+      "bytes": 3812,
+      "sha256": "3bd2ebd0d8b8d39fe0b082c64e8cc958b01c0e898436a6e1157bac84dc137143"
+    },
+    "core/CardinalityMoments.lean": {
+      "bytes": 4486,
+      "sha256": "5a9a3aeb9a0c5f6871fb4b4c4da2abb467f55bad65b178ddc59941798fc67450"
+    },
+    "core/CentralWindowClosure.lean": {
+      "bytes": 3130,
+      "sha256": "f280147742d6aa2a2f65f176713778f77534d572d978061451da8e9011eb713b"
+    },
+    "core/ClosureInterfaces.lean": {
+      "bytes": 5052,
+      "sha256": "6813df60cd2adc4b9fcb11e49f6a3c5d7b13046ef526c378dd5d605088e615a6"
+    },
+    "core/CriticalExtraction.lean": {
+      "bytes": 5922,
+      "sha256": "ebfb54dc43580cb847d56998a18adda64361f0015940145d05be93fd436d4b9f"
+    },
+    "core/CriticalLeafPhases.lean": {
+      "bytes": 3295,
+      "sha256": "bb23ab3f5ea7f0f43a78baf8c1dfed3e08a07154da6629c6c20b8235018c2fa7"
+    },
+    "core/DegreeNeighborTools.lean": {
+      "bytes": 3739,
+      "sha256": "ef28e6bcb4c483c2a65db3c71ad9d88747d4c02c87b63f296c5f051ff29f396d"
+    },
+    "core/DeletionFirstFall.lean": {
+      "bytes": 4415,
+      "sha256": "9e7d35ee719f2e7d4b27c7ef31bf508896d79a88fc1bef3e98906a6b6fab94a4"
+    },
+    "core/EndSupportPadding.lean": {
+      "bytes": 2623,
+      "sha256": "91954d54d30b53d666151f01fb0b47c01a50c9609b5f9a14cfd9f3223726792c"
+    },
+    "core/FiniteMarkedFamilies.lean": {
+      "bytes": 8856,
+      "sha256": "5cfd85704cb2190103f4ab097b7e9a90410af95b187f489a48a382ef8244061b"
+    },
+    "core/FirstInteriorBoundaryExclusion.lean": {
+      "bytes": 3819,
+      "sha256": "ed88eb2e20f9d63fb92bb20551a5ca35ec07aaed3153f79c203684c4490446b3"
+    },
+    "core/FirstInteriorDegreeTwo.lean": {
+      "bytes": 4197,
+      "sha256": "9783be31d8c491eccd89848fbf3cfcc2ea3d6b23c47129b20ff6ab512840f3c4"
+    },
+    "core/FirstInteriorLargeSupport.lean": {
+      "bytes": 3253,
+      "sha256": "c224021ba1aa4fca271031dbdf402f4f29041d2213e1efbe51c1f93b41621749"
+    },
+    "core/FirstInteriorLongPath.lean": {
+      "bytes": 7157,
+      "sha256": "2b9bcf5ad839196513a08544187bd8071e9d3470290641fe92055c10814898dd"
+    },
+    "core/FirstInteriorRootSlope.lean": {
+      "bytes": 3985,
+      "sha256": "b3890fa3c2cdb2338009c23e606503e5eed0e95d09e91b1ff49ffb952aee2bbf"
+    },
+    "core/Floor216Acceptance.lean": {
+      "bytes": 3925,
+      "sha256": "5a95179c8a262007cbe1e8cdd0705e0f33003370bbecd74cde9a59b334761022"
+    },
+    "core/Floor216Algebra.lean": {
+      "bytes": 4232,
+      "sha256": "6207377b777c226cd35525d550469947f6d66b7b247a3e3f05e02a25dd092e50"
+    },
+    "core/Floor216ConvolutionClosure.lean": {
+      "bytes": 6112,
+      "sha256": "b1e14a67b15631a7ea6c3570a819695fef9c4f76ceaa9119b1a8ce3be0bd9bc7"
+    },
+    "core/Floor216Coverage.lean": {
+      "bytes": 4316,
+      "sha256": "9d93053899123f565ac1750488480b7ad422f3f5d3459dfe8b05ec0e5b7ff6da"
+    },
+    "core/Floor216Enclosures.lean": {
+      "bytes": 5005,
+      "sha256": "f219740852b898ad14a968d251074d691dee28e43639e268cc4f093886ced53b"
+    },
+    "core/Floor216GraphPolynomial.lean": {
+      "bytes": 6331,
+      "sha256": "efac106107d8eb7c1a577945e7f2e9ca4573c1797b95595506a2d02b148ed75a"
+    },
+    "core/Floor216Intervals.lean": {
+      "bytes": 3213,
+      "sha256": "0c76cdaf8d030bcf88dfd21df723ef5341b0ad0c2f08235d1535b6b952cd706c"
+    },
+    "core/Floor216LogConcavity.lean": {
+      "bytes": 6280,
+      "sha256": "2810457d4049398ada857c9a844f8515daa4d6e9f0b984153077e6671524c5c7"
+    },
+    "core/Floor216NoHoles.lean": {
+      "bytes": 3715,
+      "sha256": "69bf0b0d303f75f8aaf57c1f9170db9bc41893b7752adb05dba164e55a92f4fd"
+    },
+    "core/Floor216Relabeling.lean": {
+      "bytes": 2842,
+      "sha256": "3fd3a54a181746c73b0d2426770cdac4398f5ffa05adc3e73365cd4f7e402e02"
+    },
+    "core/FloorSafeWindow203.lean": {
+      "bytes": 4281,
+      "sha256": "4052da9e07aed479b410e5f1d0e30b33ec275e6a9adb0b1e4dd55fb365f55c2a"
+    },
+    "core/ForestCore.lean": {
+      "bytes": 126,
+      "sha256": "726f7e6e50534643610f076a856d8520f28b5d2aef148e6a7972f39d9d1f3341"
+    },
+    "core/ForestCurvature.lean": {
+      "bytes": 6918,
+      "sha256": "10908b4d86bb540fb41266bf119f41ea8a48e9de63365360f3c1b9aed5900c65"
+    },
+    "core/ForestDeletionSeparation.lean": {
+      "bytes": 4172,
+      "sha256": "9468c8a0901ec2f54dd005eb41af84477a2b0eb34ea871d558e6ca40dbb82b29"
+    },
+    "core/ForestEndSupport.lean": {
+      "bytes": 1756,
+      "sha256": "204d20108582c5ef32188a336c8e89e510be925ba6f0c03d5b8b805457298285"
+    },
+    "core/ForestLeafStructure.lean": {
+      "bytes": 13064,
+      "sha256": "66455c347e87a0ba8c354fede5d602e90f53b84f92f39a60ed89aba6fccb9d8f"
+    },
+    "core/ForestOverlapCounting.lean": {
+      "bytes": 3989,
+      "sha256": "c40b3b7487a922f9c724bf34b169ee68b284e1d24de03fe5383e8ff61b351514"
+    },
+    "core/ForestParentCertificate.lean": {
+      "bytes": 6929,
+      "sha256": "9e792a252c34e698f9dc95050e16a885f3a9027a80453029995dc4d7fab11aa0"
+    },
+    "core/ForestReturnPhases.lean": {
+      "bytes": 6353,
+      "sha256": "bf4cafce0c05b1d826ea31d6e5cdb8c4b41cdc25982c96c4d058d4bf73041e14"
+    },
+    "core/ForestStatements.lean": {
+      "bytes": 6797,
+      "sha256": "fb0f238bcabc8bc792b0b40077c22e5325915709543031eb0abf89be3958cf0e"
+    },
+    "core/GraphExtensionCounting.lean": {
+      "bytes": 22429,
+      "sha256": "3fac489874924f500ee74c7499fe613271ceddbfeb4d52024cd9276cd75d4dba"
+    },
+    "core/GraphExtensionUpper.lean": {
+      "bytes": 1492,
+      "sha256": "13126c0a6574ea8d84efa265e49975d196307058820dab55a3631f8e096dc596"
+    },
+    "core/InducedIsolateBudget.lean": {
+      "bytes": 3489,
+      "sha256": "eb5a6447baba6da86e58e85a752e314f970aada550de7dc29cfe865a3051b1c2"
+    },
+    "core/InteriorIsolateAlgebra.lean": {
+      "bytes": 2668,
+      "sha256": "a10ffb81efbc305f2b57467168d73718dcb32587ea78ca112e8e4ca732373501"
+    },
+    "core/InteriorPaddingCertificate.lean": {
+      "bytes": 3322,
+      "sha256": "ddbd8b12c2af56abbda036869eb343105471e4186ea9b23d4a9f726a701064d0"
+    },
+    "core/IsolateCurvature.lean": {
+      "bytes": 5482,
+      "sha256": "7f7080c150ac54e0a7ab3e1c105b7232363878d7c8de63e0abd6706940d3df8c"
+    },
+    "core/IsolateMassIdentity.lean": {
+      "bytes": 3117,
+      "sha256": "4679843c24423964dadbdc72d8c52504e5f2039917823a4446f94b81bc9c4f1d"
+    },
+    "core/IsolatePaddingCounts.lean": {
+      "bytes": 4181,
+      "sha256": "7ce942a5ba54d3fb80cb93d92766b482d277736432ed9e71f0e18744d2129a8d"
+    },
+    "core/KernelSlopeComparison.lean": {
+      "bytes": 9312,
+      "sha256": "8a3a2f5f469f236102715348bd0591e1a8687552db76514b2d0bdcaa4cd2b155"
+    },
+    "core/KernelUnimodality.lean": {
+      "bytes": 7653,
+      "sha256": "e5ce81aae189142deefd47b04ca5ca0a2ac23a75d694d937500c6287ff70da73"
+    },
+    "core/LeafAttachment.lean": {
+      "bytes": 3966,
+      "sha256": "d770a9bf5c21dd27d1723c772a3f2d1a96cc00bd04f99aaff4ae41696bd5ad7c"
+    },
+    "core/LeafAttachmentCounting.lean": {
+      "bytes": 5445,
+      "sha256": "63a51ed055737061d4b9fdd3d51aa6879cf72b0923f12fbe489a25bc4616fbf0"
+    },
+    "core/LeafBalanceActual.lean": {
+      "bytes": 6024,
+      "sha256": "ec72c0039899ac44882b70bef476502b9e635c1bb777404dfed305fc4f7184a5"
+    },
+    "core/LeafBalanceConcavity.lean": {
+      "bytes": 8718,
+      "sha256": "dd6415472ee51f2c6d78e25308d810e78207ff4f5006a30ebf16c99ac8ca7794"
+    },
+    "core/LeafBalanceKernel.lean": {
+      "bytes": 3567,
+      "sha256": "1de271e66b4cf0191a41baa2e17713f80cabe8bf92ce1abd4893542940e04137"
+    },
+    "core/LeafBoundaryTransfer.lean": {
+      "bytes": 11014,
+      "sha256": "0c6bc685024293b0fa963b9f70e488dcbb6212e2bfee87f6dd41f263f8375574"
+    },
+    "core/LeafContinuationPayment.lean": {
+      "bytes": 6851,
+      "sha256": "29138c478570fa80978daea14d6546816372bbdc7dbe3bcb6896685c205d3708"
+    },
+    "core/LeafIncidenceBounds.lean": {
+      "bytes": 2408,
+      "sha256": "d8beeedbe6628d861dc664ce3e9a052b5dcd8d609190dcca1049f0cd7d3ef2e3"
+    },
+    "core/LeafReturnDepth.lean": {
+      "bytes": 5748,
+      "sha256": "2146d7c561e40062ea7ce23f9729a9d0b2a4f49883a3c1b2092586676220209b"
+    },
+    "core/LinearFactorUnimodality.lean": {
+      "bytes": 4174,
+      "sha256": "0d897a19ebf3bd3315809574db3906ad2bd56f4bea035f8a54f458a63f5c93ac"
+    },
+    "core/MarkedInjectionAudit.lean": {
+      "bytes": 7032,
+      "sha256": "1fa98c1a1d60ef7d69696dc29349833574bf3f7663348a22c5f19b102a11fd8e"
+    },
+    "core/MultipleIsolateBound.lean": {
+      "bytes": 2065,
+      "sha256": "e9cc9c4389ed695c09b5b71b48fc928efb7a7a3ab555bc91c9102c80dc0475a5"
+    },
+    "core/NestedVertexDeletion.lean": {
+      "bytes": 1386,
+      "sha256": "44ec17cd99d06966a4e31be6bdf3c1495c079099be262f8b8177889d1902ebca"
+    },
+    "core/NextEndSupport.lean": {
+      "bytes": 4051,
+      "sha256": "b8fb0fcbbb389308d56ce077fd02d81b3db279da86603cc895b8b23582708c75"
+    },
+    "core/NoRecoveryFoundation.lean": {
+      "bytes": 4195,
+      "sha256": "7a84c3995891e24f4278301dacc1ea1f44b94e5d99621151990d9ed75094ad2f"
+    },
+    "core/OverlapDeletionBudget.lean": {
+      "bytes": 6580,
+      "sha256": "99fdabb2e021b2d2ad824d2a1cac25825081a0efae20d07243697e3df06c498a"
+    },
+    "core/PrefixCenterPairs.lean": {
+      "bytes": 5590,
+      "sha256": "ace661032a280b911635721d5948ec5243d7c34b001e50f112960ad33547020e"
+    },
+    "core/PrefixDegreeSums.lean": {
+      "bytes": 5711,
+      "sha256": "7e018a490959c5cea409a6d18157256db72db615e694d4865f13cd96aefdda7d"
+    },
+    "core/PrefixForkNeighborhood.lean": {
+      "bytes": 10215,
+      "sha256": "5d33dbd19b300cb473b71928bc5f9ecbd1d28e35d133b2870ac17729eebb0c32"
+    },
+    "core/PrefixForkPacking.lean": {
+      "bytes": 7425,
+      "sha256": "e89875b297ae3c36b5e49e6c76bb1409577a828708fbd200d13aa409c255407f"
+    },
+    "core/PrefixLocal63.lean": {
+      "bytes": 7464,
+      "sha256": "af09e897ac67b655c1f300098cbd4eb5e28aac522b45213f3dd6d0cb08169223"
+    },
+    "core/PrefixLocalCounting.lean": {
+      "bytes": 6217,
+      "sha256": "50ea5b9a75fce9e29caedd021086f10532b78404c49aec95bcd9a9693a67c099"
+    },
+    "core/PrefixPairDensity.lean": {
+      "bytes": 7667,
+      "sha256": "db004610c9bdef79683f3882133ab0fb0f8a119c27eefb52eaad952ce090b6d6"
+    },
+    "core/PrefixPairIncidence.lean": {
+      "bytes": 4349,
+      "sha256": "34f651ef88b3003b74bcf3e4bd00a0563be0409d9588ebcf76d77197a7c94a1c"
+    },
+    "core/PrefixPartitionCounting.lean": {
+      "bytes": 3643,
+      "sha256": "c4bff24de963cdc041153535e77f11b4dd12958f683aed05fba6572f62d821c5"
+    },
+    "core/PrefixRootBudget.lean": {
+      "bytes": 5115,
+      "sha256": "55e0baef39677c2df4254c99a3da875fc2ec840e07ad18b83e8e01e76e98fb43"
+    },
+    "core/PrefixSmallCurvature.lean": {
+      "bytes": 6531,
+      "sha256": "50dc4f3a86b636079938352ccbfd687a66f85324d9b99650dabb1a61f4ce5376"
+    },
+    "core/PrefixSmallIncidence.lean": {
+      "bytes": 4463,
+      "sha256": "2b38f7de1258e1cabe4519aee2e5de3725c7cefddbdf12f4d08827a2c73ac9a8"
+    },
+    "core/PrefixSubsetTotals.lean": {
+      "bytes": 3913,
+      "sha256": "aa0d785c11aea9619ef531a1de90fd477a8f55657999430272d171d8c8131aa8"
+    },
+    "core/QuarterBoundaryExclusion.lean": {
+      "bytes": 4448,
+      "sha256": "35932f54646f362f5218c7fcb21f860972cdbf38141148b941c9cb2a5d1cc76e"
+    },
+    "core/QuarterEndBudget.lean": {
+      "bytes": 4790,
+      "sha256": "774a07019f676dbace73dd2228ec64ab0f63b19f102de062bfb173b8003b2e61"
+    },
+    "core/QuarterPaddingCertificate.lean": {
+      "bytes": 5754,
+      "sha256": "2190fd318dbf80b2f96997e6b33603857d0727611424af740cfcc31e84374bd4"
+    },
+    "core/README.md": {
+      "bytes": 8000,
+      "sha256": "39fac57f2aeef4e3407598b7c5993c420d5a381ea862e931caccd9736a344579"
+    },
+    "core/RefinedForestPrefix.lean": {
+      "bytes": 5591,
+      "sha256": "9e7fa5b1987195f1df0765ba1ae02b61500c970810b4ffcf93dac85f38cacf0d"
+    },
+    "core/RootedJointGrowth.lean": {
+      "bytes": 1909,
+      "sha256": "c1301749c20b3f08294787f60e4b1ed29c4c8714cf08cde8325ff22b745256e4"
+    },
+    "core/RootedSecondGradientGoal.lean": {
+      "bytes": 1771,
+      "sha256": "25f9637c1600531e7323d8e5c69d01b026c083c5a219fe3e419f64d141a22e13"
+    },
+    "core/RootingBridgeAudit.lean": {
+      "bytes": 2100,
+      "sha256": "89150a01d1a1ad375ca83fb192b63b3b5ef6af665dd05c0db7d44bf2eb882f43"
+    },
+    "core/SOURCE_MANIFEST.json": {
+      "bytes": 18744,
+      "sha256": "1fa5c1d60cc0736ce9a3e70cd9acbb33501f5010e95e16f704885e8d92af2ee4"
+    },
+    "core/SOURCE_PROVENANCE.json": {
+      "bytes": 52363,
+      "sha256": "83fc9d88b9859edf96e059dbeacd85885b428cb792862a86cab78e300fb48945"
+    },
+    "core/SeparatedRootCurvature.lean": {
+      "bytes": 7109,
+      "sha256": "56475ebce126f69399c81c9e861bc75bdde2200a4e0320430c13ffb51d4b81ec"
+    },
+    "core/SingleIsolateBound.lean": {
+      "bytes": 3276,
+      "sha256": "b64db8f98e64ba368fabec324553783220b3ac4a9cb9f4fb3567204d4f7796d6"
+    },
+    "core/SmallComponentCurvature.lean": {
+      "bytes": 6203,
+      "sha256": "e3f3e1bfae8b7802b5fe96411776a45d22dd33ebf1446f055d6d8abfa434a578"
+    },
+    "core/StarSupportExclusion.lean": {
+      "bytes": 4134,
+      "sha256": "0d1d2cd2f4f058a65f43951aa3f565d3ae2a0a8b2daf956b18e36de69612b569"
+    },
+    "core/SupportCoreRelationships.lean": {
+      "bytes": 3977,
+      "sha256": "4bb7b6147139a49e5ec1587fe09d702de85081f713c7d924ffdf0fba7ff9acf1"
+    },
+    "core/SupportCurvatureBudget.lean": {
+      "bytes": 4708,
+      "sha256": "1d8c8db6f7040488fb95b47ba7fc49ee9763282884103b28c0f43fde5c72d352"
+    },
+    "core/TwoLeafPayment.lean": {
+      "bytes": 2201,
+      "sha256": "282df0c528f0bbb53454752af61f9a3bca5106e106c03fe93b7f3f79921ee8c3"
+    },
+    "core/UPSTREAM_LOCK.json": {
+      "bytes": 3673,
+      "sha256": "1491f763d5a349b1209c1eb98f1c7c477040fae28be6d130b6b6c62b2ca673f6"
+    },
+    "core/UniformForestPrefix.lean": {
+      "bytes": 5148,
+      "sha256": "46efc27715abc4dcc5f17410b26d6b5e0cbffb73c2893c87aef8267d36a57da5"
+    },
+    "core/ValleyDeletionCover.lean": {
+      "bytes": 7440,
+      "sha256": "2a2f9a89e781e22516dd2e18298c6a5d259ee108bfbdd38591e985c5b96b703c"
+    },
+    "core/VertexIncidence.lean": {
+      "bytes": 2494,
+      "sha256": "52069e309733c56e6e0587ed184f273d76b85f3f64a92f3f021ae0be8ca14376"
+    },
+    "core/WeightedInducedCounting.lean": {
+      "bytes": 4010,
+      "sha256": "44b30b4854f9bf66b595cb06bcbcc0a5c440ba40098181258fd7fed12e4ef0e5"
+    },
+    "core/configure.py": {
+      "bytes": 13032,
+      "sha256": "1a1c900c95deb768b447668997b854b4422ef612295226a5776ccc0408de3a55"
+    },
+    "core/lake-manifest.json": {
+      "bytes": 2576,
+      "sha256": "f321789efef267c9e758cf52910a6d759fb61874c35e9b8e7d3bd5ab091de71a"
+    },
+    "core/lakefile.toml": {
+      "bytes": 2460,
+      "sha256": "c52c73cbb07e8dc9b76aaa3213d51d5254b6078e164076095ed134131bec36a8"
+    },
+    "core/lean-toolchain": {
+      "bytes": 26,
+      "sha256": "8b5db2d1b1d33453d63409fd86f5899c7918380553a90b70f09ed56028768cb6"
+    },
+    "core/Erdos993Analytic/ActivityVertexRecurrence.lean": {
+      "bytes": 1908,
+      "sha256": "f9665fce13fcc4b2aac728fb8970469da9c97b113305f492fa26017ce8f8945c"
+    },
+    "core/Erdos993Analytic/CardinalityLaw.lean": {
+      "bytes": 2942,
+      "sha256": "9993bd3ecd4cb6cd96f1a5665024dccae43eda74c896c631e23fc2df2d2b194d"
+    },
+    "core/Erdos993Analytic/ConditionalDeletion.lean": {
+      "bytes": 5013,
+      "sha256": "c852de6bd219673b4a8f86450c244fea447b21b8662e66de4ba904accb4f6e71"
+    },
+    "core/Erdos993Analytic/ConditionalInclusion.lean": {
+      "bytes": 4679,
+      "sha256": "ddf598a6fa0217a30872342d469b2ca8d75020ec7851859a355d98b7c798fadc"
+    },
+    "core/Erdos993Analytic/ConditionalMoments.lean": {
+      "bytes": 6043,
+      "sha256": "a0d43602abe9dadf51ea82d681859f8351e448035b3df7a56b1ae03ffb4f9e4f"
+    },
+    "core/Erdos993Analytic/FiniteLaw.lean": {
+      "bytes": 4759,
+      "sha256": "d63c7d02c7d7b16c7901139b6fddde97d15ff311c08205fcc4fc2e97359f3c94"
+    },
+    "core/Erdos993Analytic/FinitePartition.lean": {
+      "bytes": 5423,
+      "sha256": "ad11084d684d3bb362dcb122d3b19532f11a7588540b86704b0c4fae4c7b5f37"
+    },
+    "core/Erdos993Analytic/FiniteProjection.lean": {
+      "bytes": 6953,
+      "sha256": "b85b00aa8ba956df7e9bb380fc278800285ebcb8613a5a3eaca160423dbd7880"
+    },
+    "core/Erdos993Analytic/GeneralActivityLaw.lean": {
+      "bytes": 3999,
+      "sha256": "2b394b009fe34908d11b07f668ad264cc786861858ba422518d81a2250b67627"
+    },
+    "core/Erdos993Analytic/GraphExposure.lean": {
+      "bytes": 3728,
+      "sha256": "34985f609dd4b9ec705758b2a6d9c72b4ef7fcc2cc98a87c52ebbaacda05b6a1"
+    },
+    "core/Erdos993Analytic/GraphMean.lean": {
+      "bytes": 4596,
+      "sha256": "52fcb866122a3ddee0b085209f1f0206c0db51c981d4b6d1a8554d45aecca8d1"
+    },
+    "core/Erdos993Analytic/JointLaw.lean": {
+      "bytes": 6937,
+      "sha256": "0c069a43870c8f0bb76f7a583b6680c9ed71c6165f58cb02ea916c5c69990d47"
+    },
+    "core/Erdos993Analytic/ResidualGraphLaw.lean": {
+      "bytes": 5682,
+      "sha256": "83b2727b3d9becea720887290f134887e7e5b36e870b65128adf0fa33178c28f"
+    },
+    "core/Erdos993Analytic/ResidualLaw.lean": {
+      "bytes": 7898,
+      "sha256": "d9b96d2ef70376d63b839eef266a51c02a079e9fed7a470a609bb5768faebcf7"
+    },
+    "core/Erdos993Analytic/ResidualSupport.lean": {
+      "bytes": 6504,
+      "sha256": "ffab73c853cd21171da61637a31b350a2ae3ba85efd7e8304b0a87a8eed90d62"
+    },
+    "core/ForestCore/AcyclicBridge.lean": {
+      "bytes": 3067,
+      "sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045"
+    },
+    "core/ForestCore/CountingBridge.lean": {
+      "bytes": 3535,
+      "sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958"
+    },
+    "core/ForestCore/General.lean": {
+      "bytes": 688,
+      "sha256": "f1df707a629cc9cfaa09b5046a98f268fc50304180de1d1e71e819b0509b93f1"
+    },
+    "core/ForestCore/Graph.lean": {
+      "bytes": 768,
+      "sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c"
+    },
+    "core/ForestCore/LinearCertificate.lean": {
+      "bytes": 6755,
+      "sha256": "244f4e9ba49a17e805e4906d4afeb907670ac84e4605d865a7711bec7a7fb090"
+    },
+    "core/ForestCore/SequenceBridge.lean": {
+      "bytes": 2244,
+      "sha256": "99de2fb574cd685888e41bc43950073bc760d4240cb2a4b362a1a161bde32ef0"
+    },
+    "core/ForestCore/Transfer.lean": {
+      "bytes": 5706,
+      "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
+    },
+    "corollary/PROOF_EVIDENCE_SUMMARY.json": {
+      "bytes": 13794,
+      "sha256": "1cedbb5a7604a69cd92279acb6731edb50f3986111fe3e521e9db10277121c25"
+    },
+    "corollary/README.md": {
+      "bytes": 7177,
+      "sha256": "8a85b80cff76bbca7139ab2d32eb1a944fdef6571a40f5932023f46915bdc897"
+    },
+    "corollary/REVIEWER_CHECKLIST.md": {
+      "bytes": 3081,
+      "sha256": "6ce1d1d80b0a3a750fcb167b72b7396bad0d67b2df905b0f9bcd26108ba5b671"
+    },
+    "corollary/SOURCE_MANIFEST.json": {
+      "bytes": 3883,
+      "sha256": "1913ec0856e7a3b0d26adecc4e2ab187cf2e0f3be6ed0aabfe583d6c254e7efe"
+    },
+    "corollary/src/ForestCore/AcyclicBridge.lean": {
+      "bytes": 3067,
+      "sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045"
+    },
+    "corollary/src/ForestCore/CountingBridge.lean": {
+      "bytes": 3535,
+      "sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958"
+    },
+    "corollary/src/ForestCore/Graph.lean": {
+      "bytes": 768,
+      "sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c"
+    },
+    "corollary/src/ForestCore/MathlibFloor38Target.lean": {
+      "bytes": 1211,
+      "sha256": "34da963d17c71552d9f25ff7c74ffc70c173b785229f0b49dfd9a39852c55192"
+    },
+    "corollary/src/ForestCore/Transfer.lean": {
+      "bytes": 5706,
+      "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
+    },
+    "docs/ARTIFACTS.md": {
+      "bytes": 3139,
+      "sha256": "3205ab0d5b2c0188381612efc8f8b2b3938c77090c4d97646c7ad2eade2c9934"
+    },
+    "docs/ATTRIBUTION.md": {
+      "bytes": 5947,
+      "sha256": "cc4902053a8ac1e597ea178074bec3afd8038c8781260bbbae0c078cfc73e97b"
+    },
+    "docs/BIBLIOGRAPHY.md": {
+      "bytes": 5934,
+      "sha256": "7d6fd87e6b5e37e1b8c45de4e33e04468c51f98109192c15ccdeda09ed3d78ca"
+    },
+    "docs/PAPER.md": {
+      "bytes": 26213,
+      "sha256": "0710fcb3f6ade00fc384386041d6944aae2e70e00c2d7f5c317c9118a985ac2c"
+    },
+    "docs/PAPER.pdf": {
+      "bytes": 278290,
+      "sha256": "01fa22d54836fb441d7d4e7898fdf0527ed3ae8613401392045458530491e2ba"
+    },
+    "docs/REPRODUCTION.md": {
+      "bytes": 5540,
+      "sha256": "c94909eb6f1cdd53714688cabb0896adb7fcb2e0681f14bcceaed3362db8a556"
+    },
+    "docs/REVIEW.md": {
+      "bytes": 5558,
+      "sha256": "79a7355782ec2b86cde2c6c1aa9d70d7e190a447dda2359ca202ede01f6c76e4"
+    },
+    "docs/VERIFICATION.md": {
+      "bytes": 5041,
+      "sha256": "76e7af73389344d02abeb677c1378f0a9fad49c4d8f835eef7a8a8d120dccebc"
+    },
+    "docs/references.bib": {
+      "bytes": 4336,
+      "sha256": "ba7fc2afbfc3e3b0cde0d8ecef93e7e136dea53e69f3665bd569770050b9bc5a"
+    },
+    "licensing_proposal/Apache-2.0.txt": {
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    "tools/MathlibFloor38Assembler.lean": {
+      "bytes": 21458,
+      "sha256": "e8b0785c220547b176b12aaf2104f44890a122518f50a766cc467f5b25b850eb"
+    },
+    "tools/MathlibFloor38ImportUnionAudit.lean": {
+      "bytes": 15602,
+      "sha256": "c9e7f2fd98f18c7d0aa954f42ff90b09ab3269f6d684fc6f8d75bafb94186b56"
+    },
+    "tools/verify_corollary_sources.py": {
+      "bytes": 1966,
+      "sha256": "00055ded201cb73376d5f02491dabeb1e889385ee67b499a69744874ce3b5506"
+    }
+  },
+  "external_assets": {
+    "floor38_unconditional_lean_sources_2026-09-28.zip": {
+      "bytes": 597672786,
+      "sha256": "c0d65a24e6eb5fbe09f4ee3d00a1283dbc72a458429c5c6bd5486abc66e65960"
+    },
+    "forest_core_sources_2026-09-28.zip": {
+      "bytes": 232090,
+      "sha256": "aa45d78b2e4f2130af21baaa09ad40fd0c8ae0bda528347561f655d41a1a02b4"
+    },
+    "floor38_paper.pdf": {
+      "bytes": 278290,
+      "sha256": "01fa22d54836fb441d7d4e7898fdf0527ed3ae8613401392045458530491e2ba"
+    }
+  }
+}
