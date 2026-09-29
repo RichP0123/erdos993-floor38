@@ -28,6 +28,10 @@
       "bytes": 177,
       "sha256": "c53f2a5cb95fb706a12e6f588641d4dee7a0fb83ae44fa7ae6afe258a2767f62"
     },
+    ".github/ISSUE_TEMPLATE/reproduction.md": {
+      "bytes": 1227,
+      "sha256": "5de414109a9c9fda57bf56d059abfbd9caf617f0fa4bb189754c82b45864dfe7"
+    },
     ".gitignore": {
       "bytes": 329,
       "sha256": "5f612d13dcccc4bc14ad0ccf51f7d40cf0e997e04a33b569edb512b7313ebfde"
@@ -53,16 +57,8 @@
       "sha256": "43edb83c57b0add08d562799ad6aebe6da6bccb61bad4011f069753cadab84e8"
     },
     "README.md": {
-      "bytes": 6370,
-      "sha256": "8fe6b6d328dd3e63ce7f0a04a1dec4e2e181100694a0bc8db7b5e855d304cb76"
-    },
-    "verify_release.py": {
-      "bytes": 3118,
-      "sha256": "d35f5ed57352ce6ec2cb848775da6cb9d0626cd14a27c0998b7b64544c7f4066"
-    },
-    ".github/ISSUE_TEMPLATE/reproduction.md": {
-      "bytes": 1227,
-      "sha256": "5de414109a9c9fda57bf56d059abfbd9caf617f0fa4bb189754c82b45864dfe7"
+      "bytes": 9160,
+      "sha256": "cb309d8b7fe2d1a3749604ce424507bb7f01040a98ec3452062c05501f4e263c"
     },
     "core/ActualSmallComponents.lean": {
       "bytes": 3602,
@@ -111,6 +107,66 @@
     "core/EndSupportPadding.lean": {
       "bytes": 2623,
       "sha256": "91954d54d30b53d666151f01fb0b47c01a50c9609b5f9a14cfd9f3223726792c"
+    },
+    "core/Erdos993Analytic/ActivityVertexRecurrence.lean": {
+      "bytes": 1908,
+      "sha256": "f9665fce13fcc4b2aac728fb8970469da9c97b113305f492fa26017ce8f8945c"
+    },
+    "core/Erdos993Analytic/CardinalityLaw.lean": {
+      "bytes": 2942,
+      "sha256": "9993bd3ecd4cb6cd96f1a5665024dccae43eda74c896c631e23fc2df2d2b194d"
+    },
+    "core/Erdos993Analytic/ConditionalDeletion.lean": {
+      "bytes": 5013,
+      "sha256": "c852de6bd219673b4a8f86450c244fea447b21b8662e66de4ba904accb4f6e71"
+    },
+    "core/Erdos993Analytic/ConditionalInclusion.lean": {
+      "bytes": 4679,
+      "sha256": "ddf598a6fa0217a30872342d469b2ca8d75020ec7851859a355d98b7c798fadc"
+    },
+    "core/Erdos993Analytic/ConditionalMoments.lean": {
+      "bytes": 6043,
+      "sha256": "a0d43602abe9dadf51ea82d681859f8351e448035b3df7a56b1ae03ffb4f9e4f"
+    },
+    "core/Erdos993Analytic/FiniteLaw.lean": {
+      "bytes": 4759,
+      "sha256": "d63c7d02c7d7b16c7901139b6fddde97d15ff311c08205fcc4fc2e97359f3c94"
+    },
+    "core/Erdos993Analytic/FinitePartition.lean": {
+      "bytes": 5423,
+      "sha256": "ad11084d684d3bb362dcb122d3b19532f11a7588540b86704b0c4fae4c7b5f37"
+    },
+    "core/Erdos993Analytic/FiniteProjection.lean": {
+      "bytes": 6953,
+      "sha256": "b85b00aa8ba956df7e9bb380fc278800285ebcb8613a5a3eaca160423dbd7880"
+    },
+    "core/Erdos993Analytic/GeneralActivityLaw.lean": {
+      "bytes": 3999,
+      "sha256": "2b394b009fe34908d11b07f668ad264cc786861858ba422518d81a2250b67627"
+    },
+    "core/Erdos993Analytic/GraphExposure.lean": {
+      "bytes": 3728,
+      "sha256": "34985f609dd4b9ec705758b2a6d9c72b4ef7fcc2cc98a87c52ebbaacda05b6a1"
+    },
+    "core/Erdos993Analytic/GraphMean.lean": {
+      "bytes": 4596,
+      "sha256": "52fcb866122a3ddee0b085209f1f0206c0db51c981d4b6d1a8554d45aecca8d1"
+    },
+    "core/Erdos993Analytic/JointLaw.lean": {
+      "bytes": 6937,
+      "sha256": "0c069a43870c8f0bb76f7a583b6680c9ed71c6165f58cb02ea916c5c69990d47"
+    },
+    "core/Erdos993Analytic/ResidualGraphLaw.lean": {
+      "bytes": 5682,
+      "sha256": "83b2727b3d9becea720887290f134887e7e5b36e870b65128adf0fa33178c28f"
+    },
+    "core/Erdos993Analytic/ResidualLaw.lean": {
+      "bytes": 7898,
+      "sha256": "d9b96d2ef70376d63b839eef266a51c02a079e9fed7a470a609bb5768faebcf7"
+    },
+    "core/Erdos993Analytic/ResidualSupport.lean": {
+      "bytes": 6504,
+      "sha256": "ffab73c853cd21171da61637a31b350a2ae3ba85efd7e8304b0a87a8eed90d62"
     },
     "core/FiniteMarkedFamilies.lean": {
       "bytes": 8856,
@@ -183,6 +239,34 @@
     "core/ForestCore.lean": {
       "bytes": 126,
       "sha256": "726f7e6e50534643610f076a856d8520f28b5d2aef148e6a7972f39d9d1f3341"
+    },
+    "core/ForestCore/AcyclicBridge.lean": {
+      "bytes": 3067,
+      "sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045"
+    },
+    "core/ForestCore/CountingBridge.lean": {
+      "bytes": 3535,
+      "sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958"
+    },
+    "core/ForestCore/General.lean": {
+      "bytes": 688,
+      "sha256": "f1df707a629cc9cfaa09b5046a98f268fc50304180de1d1e71e819b0509b93f1"
+    },
+    "core/ForestCore/Graph.lean": {
+      "bytes": 768,
+      "sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c"
+    },
+    "core/ForestCore/LinearCertificate.lean": {
+      "bytes": 6755,
+      "sha256": "244f4e9ba49a17e805e4906d4afeb907670ac84e4605d865a7711bec7a7fb090"
+    },
+    "core/ForestCore/SequenceBridge.lean": {
+      "bytes": 2244,
+      "sha256": "99de2fb574cd685888e41bc43950073bc760d4240cb2a4b362a1a161bde32ef0"
+    },
+    "core/ForestCore/Transfer.lean": {
+      "bytes": 5706,
+      "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
     },
     "core/ForestCurvature.lean": {
       "bytes": 6918,
@@ -476,94 +560,6 @@
       "bytes": 26,
       "sha256": "8b5db2d1b1d33453d63409fd86f5899c7918380553a90b70f09ed56028768cb6"
     },
-    "core/Erdos993Analytic/ActivityVertexRecurrence.lean": {
-      "bytes": 1908,
-      "sha256": "f9665fce13fcc4b2aac728fb8970469da9c97b113305f492fa26017ce8f8945c"
-    },
-    "core/Erdos993Analytic/CardinalityLaw.lean": {
-      "bytes": 2942,
-      "sha256": "9993bd3ecd4cb6cd96f1a5665024dccae43eda74c896c631e23fc2df2d2b194d"
-    },
-    "core/Erdos993Analytic/ConditionalDeletion.lean": {
-      "bytes": 5013,
-      "sha256": "c852de6bd219673b4a8f86450c244fea447b21b8662e66de4ba904accb4f6e71"
-    },
-    "core/Erdos993Analytic/ConditionalInclusion.lean": {
-      "bytes": 4679,
-      "sha256": "ddf598a6fa0217a30872342d469b2ca8d75020ec7851859a355d98b7c798fadc"
-    },
-    "core/Erdos993Analytic/ConditionalMoments.lean": {
-      "bytes": 6043,
-      "sha256": "a0d43602abe9dadf51ea82d681859f8351e448035b3df7a56b1ae03ffb4f9e4f"
-    },
-    "core/Erdos993Analytic/FiniteLaw.lean": {
-      "bytes": 4759,
-      "sha256": "d63c7d02c7d7b16c7901139b6fddde97d15ff311c08205fcc4fc2e97359f3c94"
-    },
-    "core/Erdos993Analytic/FinitePartition.lean": {
-      "bytes": 5423,
-      "sha256": "ad11084d684d3bb362dcb122d3b19532f11a7588540b86704b0c4fae4c7b5f37"
-    },
-    "core/Erdos993Analytic/FiniteProjection.lean": {
-      "bytes": 6953,
-      "sha256": "b85b00aa8ba956df7e9bb380fc278800285ebcb8613a5a3eaca160423dbd7880"
-    },
-    "core/Erdos993Analytic/GeneralActivityLaw.lean": {
-      "bytes": 3999,
-      "sha256": "2b394b009fe34908d11b07f668ad264cc786861858ba422518d81a2250b67627"
-    },
-    "core/Erdos993Analytic/GraphExposure.lean": {
-      "bytes": 3728,
-      "sha256": "34985f609dd4b9ec705758b2a6d9c72b4ef7fcc2cc98a87c52ebbaacda05b6a1"
-    },
-    "core/Erdos993Analytic/GraphMean.lean": {
-      "bytes": 4596,
-      "sha256": "52fcb866122a3ddee0b085209f1f0206c0db51c981d4b6d1a8554d45aecca8d1"
-    },
-    "core/Erdos993Analytic/JointLaw.lean": {
-      "bytes": 6937,
-      "sha256": "0c069a43870c8f0bb76f7a583b6680c9ed71c6165f58cb02ea916c5c69990d47"
-    },
-    "core/Erdos993Analytic/ResidualGraphLaw.lean": {
-      "bytes": 5682,
-      "sha256": "83b2727b3d9becea720887290f134887e7e5b36e870b65128adf0fa33178c28f"
-    },
-    "core/Erdos993Analytic/ResidualLaw.lean": {
-      "bytes": 7898,
-      "sha256": "d9b96d2ef70376d63b839eef266a51c02a079e9fed7a470a609bb5768faebcf7"
-    },
-    "core/Erdos993Analytic/ResidualSupport.lean": {
-      "bytes": 6504,
-      "sha256": "ffab73c853cd21171da61637a31b350a2ae3ba85efd7e8304b0a87a8eed90d62"
-    },
-    "core/ForestCore/AcyclicBridge.lean": {
-      "bytes": 3067,
-      "sha256": "6bb53d464bf6dc3c01885fec67a5339ba5f687951d3a41032e104ba13a872045"
-    },
-    "core/ForestCore/CountingBridge.lean": {
-      "bytes": 3535,
-      "sha256": "5416f36ea8fa0cc98ea05999e67d7a73c7952e4fa1949412b6260b6f029f1958"
-    },
-    "core/ForestCore/General.lean": {
-      "bytes": 688,
-      "sha256": "f1df707a629cc9cfaa09b5046a98f268fc50304180de1d1e71e819b0509b93f1"
-    },
-    "core/ForestCore/Graph.lean": {
-      "bytes": 768,
-      "sha256": "168c28e03cf82d005149b7556c0555d5796254ab2e83160b8354b97333fa599c"
-    },
-    "core/ForestCore/LinearCertificate.lean": {
-      "bytes": 6755,
-      "sha256": "244f4e9ba49a17e805e4906d4afeb907670ac84e4605d865a7711bec7a7fb090"
-    },
-    "core/ForestCore/SequenceBridge.lean": {
-      "bytes": 2244,
-      "sha256": "99de2fb574cd685888e41bc43950073bc760d4240cb2a4b362a1a161bde32ef0"
-    },
-    "core/ForestCore/Transfer.lean": {
-      "bytes": 5706,
-      "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
-    },
     "corollary/PROOF_EVIDENCE_SUMMARY.json": {
       "bytes": 13795,
       "sha256": "4a69072aaca135a5c73498ef6e8f0fac0ef9dc25bbb9c20fce80a75795ba739a"
@@ -609,8 +605,8 @@
       "sha256": "228504dffd12847fab5c7aedb71279560314aa0e0b27784eb49aabb5aacb8dcc"
     },
     "docs/BIBLIOGRAPHY.md": {
-      "bytes": 6071,
-      "sha256": "3a2a5231690f5f6884c78fe641326f2c10d5114904ee524d7d961104eceebc02"
+      "bytes": 6970,
+      "sha256": "3c75680ece680eee5f9b064f7b5a1355cd44e5fe845c3bddfcfd46ec9e9f0f54"
     },
     "docs/PAPER.md": {
       "bytes": 26229,
@@ -619,6 +615,10 @@
     "docs/PAPER.pdf": {
       "bytes": 278329,
       "sha256": "ca34a3153346489bf957d8eb6710b74c92eb69724304a5df455733696b7ee1a3"
+    },
+    "docs/RELATED_WORK.md": {
+      "bytes": 4882,
+      "sha256": "c323ae03e1e3e8a1fee5c92d83dbebc86714c850235c556c50ac379296294a87"
     },
     "docs/REPRODUCTION.md": {
       "bytes": 5540,
@@ -633,8 +633,8 @@
       "sha256": "76e7af73389344d02abeb677c1378f0a9fad49c4d8f835eef7a8a8d120dccebc"
     },
     "docs/references.bib": {
-      "bytes": 4336,
-      "sha256": "ba7fc2afbfc3e3b0cde0d8ecef93e7e136dea53e69f3665bd569770050b9bc5a"
+      "bytes": 4611,
+      "sha256": "4100ba3ad9928a6325e69f8554ef81abfab916f4caa5c0c41110d550ea7e34ff"
     },
     "tools/MathlibFloor38Assembler.lean": {
       "bytes": 21458,
@@ -647,6 +647,10 @@
     "tools/verify_corollary_sources.py": {
       "bytes": 1966,
       "sha256": "00055ded201cb73376d5f02491dabeb1e889385ee67b499a69744874ce3b5506"
+    },
+    "verify_release.py": {
+      "bytes": 3118,
+      "sha256": "d35f5ed57352ce6ec2cb848775da6cb9d0626cd14a27c0998b7b64544c7f4066"
     }
   },
   "external_assets": {
@@ -674,5 +678,21 @@
       "bytes": 1874,
       "sha256": "43edb83c57b0add08d562799ad6aebe6da6bccb61bad4011f069753cadab84e8"
     }
+  },
+  "documentation_update": {
+    "date": "2026-09-29",
+    "kind": "Post-release documentation only",
+    "base_release_tag": "v0.1.0-floor38",
+    "base_release_commit": "c3cbe076559c8291cecd0de09c4d82827cef5090",
+    "changed_documentation": [
+      "README.md",
+      "docs/RELATED_WORK.md",
+      "docs/BIBLIOGRAPHY.md",
+      "docs/references.bib"
+    ],
+    "release_tag_and_assets_unchanged": true,
+    "proof_sources_unchanged": true,
+    "Lean_compiled": false,
+    "scope": "Current default-branch documentation. The fixed release tag retains its original documentation and manifest."
   }
 }

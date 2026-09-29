@@ -25,3 +25,9 @@ Checked 28 September 2026 against the primary links and saved local records list
 11. **Ethan X. Fang, Junwei Lu, Eran Nevo, Yuan Yao and Hailun Zheng.** *Unimodality of Independence Polynomials for Sufficiently Large Forests*. [arXiv:2609.20961v1](https://arxiv.org/abs/2609.20961v1), submitted 17 September 2026. This concerns sufficiently large forests. The new local interface lemmas also match the counting and unimodality formulations inspected in the authors' [Basic.lean](https://raw.githubusercontent.com/junwei-lu/Erdos_993_Tree_Independent_Set_Unimodality/main/ErdosProblem993/Basic.lean). Their project was not built or audited here; the interface comparison is not a combined proof of every order.
 
 The release author is Rich Patterson. [CITATION.cff](../CITATION.cff) identifies release `v0.1.0-floor38`, dated 29 September 2026, at [the versioned release](https://github.com/RichP0123/erdos993-floor38/releases/tag/v0.1.0-floor38). No DOI is assigned to this release; the DOI citations above identify their respective external works.
+
+## Post-release related-work addition, 29 September 2026
+
+12. **Kevin Vallier.** *erdos993-lean*, AI-assisted Lean formalization, commit `865e81498ecacda3de0d47647927353a7fadbba5`, 29 September 2026. [Pinned primary repository](https://github.com/selfreferencing/erdos993-lean/tree/865e81498ecacda3de0d47647927353a7fadbba5). Inspected source includes a kernel-certificate theorem through 60 credited to Zhang–Li's finite argument, and a full-result theorem with separately documented native-compilation trust. No independent build or complete proof audit is claimed here. This is related work, not a dependency of the released through-37 proof. See [the dated related-work notes](RELATED_WORK.md) for scope, primary-source links and toolchain differences.
+
+The original numbered bibliography above and the fixed release paper are preserved. This addendum does not assert novelty or retrospectively add a source dependency.
