@@ -68,6 +68,6 @@ The subsequent plain `lake build` is the ordinary Lean/Lake route using the loca
 
 Preserved sources retain their original bytes and notices. `SOURCE_PROVENANCE.json` is an extraction record referencing the original complete audit; it is not a fresh build receipt. New interface files must be distinguished from preserved files in subsequent receipts.
 
-No blanket project-wide license grant has yet been established. Existing Lean/Mathlib notices do not license unrelated local files. The publication attribution/rights review, including the predecessor FLOOR208 materials, remains separate; preserve its explicit scope before redistribution. The proposed license for original contributions is Apache-2.0, subject to an authorized and accurately scoped grant. Do not relabel unidentified third-party expression.
+Original project contributions are licensed under Apache-2.0 by Rich Patterson, effective 29 September 2026. See the repository-level LICENSE and LICENSE_SCOPE.md, or the identically named companion release assets, for the grant covering this core and its unchanged source ZIP. Existing upstream terms and notices are preserved. This publication update supersedes the older license-pending wording in the frozen core ZIP; the Lean sources and recorded build facts are unchanged.
 
 This library and the finite floor38 result make no claim to prove unrestricted Erdős 993, a ceiling theorem or higher unaccepted finite floors.

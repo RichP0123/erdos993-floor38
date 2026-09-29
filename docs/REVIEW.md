@@ -5,22 +5,22 @@ This is a technical review guide, not a record of external human referee approva
 | Question | Current disposition |
 |---|---|
 | Does the proposition count independent sets in actual finite simple forests? | The graph representation, subset coverage/nonduplication, independence predicate, coefficients and forest semantics are proved. Ordinary Mathlib graph/counting and acyclicity bridges are available. |
-| Is the smaller-order baseline or census completeness still assumed? | No. Actual root attachment and concrete bank closure prove coverage; the base through18 and all required connected orders are supplied. |
-| Does disconnected closure misuse arbitrary unimodal products? | No. It uses the classical nonnegative log-concave/no-hole convolution principle and a component of size at most18. |
+| Is the smaller-order baseline or census completeness still assumed? | No. Actual root attachment and concrete bank closure prove coverage; the base through 18 and all required connected orders are supplied. |
+| Does disconnected closure misuse arbitrary unimodal products? | No. It uses the classical nonnegative log-concave/no-hole convolution principle and a component of size at most 18. |
 | Is the concrete Mathlib corollary merely conditional on the desired bound? | No. The generic bridge has an input theorem, but the separately checked concrete application supplies the completed original bound. |
 | Was the full theorem ordinarily reimported? | Full final reimport used the same custom exact loader. Only a small pilot additionally passed ordinary import. This distinction remains explicit. |
 | Does the custom loader replace proved theorems by axioms? | The reviewed helper retains exact original declaration objects/proof bodies and original module data, with dependency/ownership/cache guards. New terms are submitted to the kernel. The source should remain a principal external review target. |
 | Was global import compatibility checked? | Yes, separately for the complete original and enlarged Mathlib import unions, with zero conflicts and negative/collision controls. |
 | Is the three-axiom list sufficient by itself? | No. Exact statement, enabled kernel checks, trusted imported objects, provenance and loader semantics are necessary as well. |
-| Was a fresh ordinary reusable library build completed? | Yes:116 project modules with no copied project objects or custom assembler, using installed locked upstream caches. |
+| Was a fresh ordinary reusable library build completed? | Yes: 116 project modules with no copied project objects or custom assembler, using installed locked upstream caches. |
 | Was the complete exported finite-proof archive rebuilt cleanly? | No. A full portable source rebuild and ordinary conventional final-source elaboration remain unperformed. |
 | Were the general external results validated? | No. Zhang–Li's claimed general result and Fang et al.'s sufficiently-large result are cited, not certified or combined into an all-order proof here. |
 | Was attribution investigated? | Yes. Primary sources and retained provenance trace the original problem, earlier computations, certificate method, classical theorem and software. The prompt/return/acquisition chain identifies FLOOR208 as this project's commissioned research round; its individual seat/model identity was not retained. |
-| Is a permissive blanket license already in force? | No. Apache-2.0 is proposed for original contributions with a valid scope. Existing notices and unidentified-expression limits remain explicit. |
+| What license applies to this release? | Apache-2.0 covers the original project contributions identified in [LICENSE_SCOPE.md](../LICENSE_SCOPE.md). Existing third-party license terms and notices are preserved. |
 
 ## Focused mathematical review
 
-Read the graph definitions and coefficient enumeration; root attachment and bank-completeness induction; indexing of rooted orders1–18; centroid grouping and exceptional four-group case; complete typed case coverage; interval rounding and no-recovery acceptance; and the disconnected strong-induction proof. Review the actual theorem signatures rather than inferring conclusions from filenames, case counts or successful scalar tests.
+Read the graph definitions and coefficient enumeration; root attachment and bank-completeness induction; indexing of rooted orders 1–18; centroid grouping and exceptional four-group case; complete typed case coverage; interval rounding and no-recovery acceptance; and the disconnected strong-induction proof. Review the actual theorem signatures rather than inferring conclusions from filenames, case counts or successful scalar tests.
 
 The historical certificate catalogue was regenerated and the complete supplied certificates replayed with a separate verifier. The original solver search was not rerun. Separate implementations are not presented as independent human authorship.
 
@@ -34,4 +34,4 @@ For the Mathlib corollary, verify that the checked ordinary bridge objects use t
 
 Use exact toolchain/package locks and isolated new output directories. Record what actually ran. A core-only build is not a full-certificate build; a metadata/hash check is not compilation. A proposed ordinary full import is not evidence it has already succeeded.
 
-Check credit and source scope against [ATTRIBUTION.md](ATTRIBUTION.md), the bibliography and [NOTICE.md](../NOTICE.md). The user has explicitly chosen Rich Patterson as the public author. The selected repository is [RichP0123/erdoss993-floor38](https://github.com/RichP0123/erdoss993-floor38) and the prepared tag is `v0.1.0-floor38`. The operative license grant and actual release date remain unresolved metadata in this prepared copy. No unsolicited contact or external endorsement is implied by the review plan.
+Check credit and source scope against [ATTRIBUTION.md](ATTRIBUTION.md), the bibliography and [NOTICE.md](../NOTICE.md). Rich Patterson is the author and publication maintainer. The repository is [RichP0123/erdos993-floor38](https://github.com/RichP0123/erdos993-floor38), and release `v0.1.0-floor38` is dated 29 September 2026. Apache-2.0 applies to the original project contributions identified in [LICENSE_SCOPE.md](../LICENSE_SCOPE.md), with existing third-party terms and notices preserved. No external endorsement is implied by the review plan.

@@ -97,8 +97,8 @@
     },
     {
       "path": "corollary/PROOF_EVIDENCE_SUMMARY.json",
-      "sha256": "1cedbb5a7604a69cd92279acb6731edb50f3986111fe3e521e9db10277121c25",
-      "bytes": 13794
+      "sha256": "4a69072aaca135a5c73498ef6e8f0fac0ef9dc25bbb9c20fce80a75795ba739a",
+      "bytes": 13795
     },
     {
       "path": "tools/verify_corollary_sources.py",

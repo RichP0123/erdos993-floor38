@@ -466,8 +466,8 @@
       "bytes": 4010
     },
     "README.md": {
-      "sha256": "39fac57f2aeef4e3407598b7c5993c420d5a381ea862e931caccd9736a344579",
-      "bytes": 8000
+      "sha256": "a1e6c31a3d4df9ec60e3d94a15059f48f451ed5f7f8d46736c0cf94dfe78f7ad",
+      "bytes": 8093
     },
     "configure.py": {
       "sha256": "1a1c900c95deb768b447668997b854b4422ef612295226a5776ccc0408de3a55",
@@ -494,8 +494,9 @@
       "bytes": 52363
     },
     "BUILD_EVIDENCE.json": {
-      "sha256": "1491724de7d0be9c295036c2027c4b3df2dd20b1aaf194631ac3fcef9897d8dd",
-      "bytes": 13289
+      "sha256": "0061f0a65fa10daf0ceafb5d04264302418acdce67042b11eda3c8dbe81708c2",
+      "bytes": 13450
     }
-  }
+  },
+  "publication_documentation_update": "29 September 2026: README and build-summary license wording updated; Lean source hashes and original build evidence unchanged."
 }

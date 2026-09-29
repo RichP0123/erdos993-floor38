@@ -1,12 +1,12 @@
 # A Lean-checked finite bound for unimodality of forest independence polynomials
 
 **Author:** Rich Patterson.  
-**Manuscript date:** 28 September 2026.  
+**Manuscript date:** 29 September 2026.  
 **Status:** finite theorem checked locally; external peer review not established.
 
 ## Abstract
 
-Every finite simple forest with at most 37 vertices has a unimodal independence sequence. We prove this finite bound by combining actual graph counting, complete rooted-state closure through order 18, exact interval certificates for connected orders 19–37, and a log-concavity convolution argument for disconnected forests, without an inherited census assumption or unproved certificate premise. The formalization was checked in Lean 4.30 with Mathlib using the custom kernel-assembly and audit procedure described in Section 6.
+Every finite simple forest with at most 37 vertices has a unimodal independence sequence. We prove this finite bound by combining actual graph counting, complete rooted-state closure through order 18, exact interval certificates for connected orders 19–37, and a log-concavity convolution argument for disconnected forests, without an inherited census assumption or unproved certificate premise. The formalization was checked in Lean 4.30 with Mathlib using the custom kernel-assembly and audit procedure described in Section 6. A conventional full rebuild has not been completed.
 
 ## 1. Statement and mathematical context
 
@@ -35,7 +35,7 @@ The certificate method comes from this project's commissioned research round, *F
 
 The disconnected step uses the classical unimodality-preserving convolution principle associated with Keilson and Gerber [6]; Sagan [7] states a finite polynomial formulation. This should be distinguished from the log-concavity product result in the classical literature [8], and from the false assertion that arbitrary products of unimodal polynomials are unimodal.
 
-Two contemporary works must also be distinguished from this finite result. Zhang and Li's manuscript dated 27 September 2026 claims unimodality for all forests [11]; its claimed general theorem and companion computations have not been validated here. For \(n\le37\), Theorem 1 establishes the same conclusion as their Proposition 1.2, which states unimodality for forests through order 60, using a method independent of the Zhang–Li argument. Fang, Lu, Nevo, Yao and Zheng address sufficiently large forests [12]. We have not built or audited their formalization, nor proved that its range combines with Theorem 1 to cover every order. No priority claim, unrestricted conclusion or assessment that either external work is invalid follows from this paper.
+Two contemporary works must also be distinguished from this finite result. Zhang and Li's manuscript dated 27 September 2026 claims unimodality for all forests [11]; its claimed general theorem and companion computations have not been validated here. For \(n\le37\), Theorem 1 independently establishes, by a different method, the conclusion of their Proposition 1.2, which covers forests through order 60. Fang, Lu, Nevo, Yao and Zheng address sufficiently large forests [12]. We have not built or audited their formalization, nor proved that its range combines with Theorem 1 to cover every order. No priority claim, unrestricted conclusion or assessment that either external work is invalid follows from this paper.
 
 ## 2. Formal meaning of the graph statement
 
@@ -189,13 +189,13 @@ A separate small `ForestCore` package extracts 108 preserved general modules and
 
 The concrete Mathlib corollary was checked in a separate environment using the original audited graph foundation, avoiding replacement by separately rebuilt objects. Its new proof modules compiled ordinarily. The final application passed kernel checking, export, fresh custom-loader reimport with a checked alias, literal target/universe checks and the invalid-proof negative control. The enlarged complete import-union audit covered 22,603 modules and 8,327,983 constants, with 385 compatible duplicate occurrences and zero conflicts. The new saved theorem's SHA-256 is `b6095b384e72725e98dd74fca15ced81e6a834c3fb615237924754f25ea826df`. This extends the interface; it does not claim a fresh rebuild of the old certificate corpus or an ordinary full final import.
 
-## 8. Contributions, credit and remaining publication matters
+## 8. Contributions, credit and license
 
 The project contributes a checked connection from actual graph counting to the complete finite-state and interval-certificate argument, removal of the historical inherited census premise, the concrete finite proof assembly, and its recorded provenance. The certificate approach was developed in the project's FLOOR208 research round [5]. The earlier computational and classical contributions are credited above; this description does not claim that every mathematical ingredient originated here.
 
 Development involved substantial generative-AI assistance in mathematical reasoning, formalization, programming, debugging, audit orchestration and writing. Rich Patterson directed the project and is the author and publication maintainer. AI-assisted checks and separate AI seats are not represented as independent human refereeing. The proof claim rests on the stated formal evidence and trust boundary, not on a model's assurance.
 
-The scoped release-license decision remains to be completed. FLOOR208's project origin is established; its missing individual seat/model metadata does not make it an unidentified outside contribution. Existing upstream notices are preserved. The proposed license for original project contributions is Apache-2.0 with the covered files specified explicitly.
+Original project contributions are released under Apache-2.0. The [license scope](https://github.com/RichP0123/erdos993-floor38/blob/main/LICENSE_SCOPE.md) identifies the covered repository files and unchanged proof archives. Third-party licenses and notices are preserved. FLOOR208 was an in-project research round; its individual historical seat/model identity was not retained.
 
 The theorem excludes counterexamples through 37. No Lean-verified ceiling, higher unaccepted floor, unrestricted resolution of Erdős 993, exhaustive novelty claim or external endorsement is asserted.
 

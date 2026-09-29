@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: Please cite this versioned release and consult its attribution and verification account.
+title: Unimodality of forest independence polynomials through 37 vertices
+type: software
+authors:
+- family-names: Patterson
+  given-names: Rich
+version: v0.1.0-floor38
+date-released: '2026-09-29'
+license: Apache-2.0
+repository-code: https://github.com/RichP0123/erdos993-floor38
+url: https://github.com/RichP0123/erdos993-floor38/releases/tag/v0.1.0-floor38
+abstract: Lean-checked unimodality of the independence sequence for every finite simple forest with
+  at most 37 vertices. The full proof and concrete Mathlib corollary use a reviewed custom kernel-assembly
+  and reimport workflow. A separate 116-module general library passed an ordinary Lake build. A fresh
+  full exported-source rebuild and conventional full final-source elaboration have not been completed.
+  The original-contribution license and third-party exceptions are detailed in LICENSE_SCOPE.md.
+  This is a finite result, not a proof of unrestricted Erdos 993.

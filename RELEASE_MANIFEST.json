@@ -2,17 +2,24 @@
   "kind": "Public file-integrity manifest; not a compiler receipt",
   "publication": {
     "public_name": "Rich Patterson",
-    "repository_url": "https://github.com/RichP0123/erdoss993-floor38",
+    "repository_url": "https://github.com/RichP0123/erdos993-floor38",
     "release_tag": "v0.1.0-floor38",
     "proposed_release_tag": "v0.1.0-floor38",
-    "release_date": null,
-    "license_scope": null,
-    "license_grant_finalized": false,
-    "pending": [
-      "scoped_license_grant",
-      "license_scope",
-      "actual_release_date"
-    ]
+    "release_date": "2026-09-29",
+    "license_scope": {
+      "spdx": "Apache-2.0",
+      "grantor": "Rich Patterson",
+      "scope_document": "LICENSE_SCOPE.md",
+      "effective_date": "2026-09-29",
+      "original_contributions_only": true,
+      "third_party_notices_preserved": true,
+      "source_archives": {
+        "floor38_unconditional_lean_sources_2026-09-28.zip": "c0d65a24e6eb5fbe09f4ee3d00a1283dbc72a458429c5c6bd5486abc66e65960",
+        "forest_core_sources_2026-09-28.zip": "aa45d78b2e4f2130af21baaa09ad40fd0c8ae0bda528347561f655d41a1a02b4"
+      }
+    },
+    "license_grant_finalized": true,
+    "pending": []
   },
   "mathematical_scope": "Every finite simple forest with at most 37 vertices has a unimodal independence sequence",
   "Lean_compiled_this_packaging_run": false,
@@ -25,25 +32,29 @@
       "bytes": 329,
       "sha256": "5f612d13dcccc4bc14ad0ccf51f7d40cf0e997e04a33b569edb512b7313ebfde"
     },
-    "CITATION.cff.in": {
-      "bytes": 1180,
-      "sha256": "5516c15d8c205a32127504a01c494f112b81004f9b2ff5fea600b16df05ffbfd"
+    "CITATION.cff": {
+      "bytes": 1068,
+      "sha256": "8edbd6b23cd16b5f34222e0f0ef3320b5b63c091735d43f58b975779b3bff4cd"
     },
     "CONTRIBUTORS.md": {
       "bytes": 2796,
       "sha256": "c08a67ead2508b424b40909609b1b7bc250898318a73231378ee2303a7d610da"
     },
+    "LICENSE": {
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
     "LICENSE_SCOPE.md": {
-      "bytes": 2075,
-      "sha256": "cad606f593633a715f1dd2d2289ced5fcfc57f5263d692f57240adbbdfc210b2"
+      "bytes": 3085,
+      "sha256": "fe60dcebdc73ecf7a397a75fb3b1f57e69e4831bd3cb7f1fa0f4dac5c927face"
     },
     "NOTICE.md": {
-      "bytes": 2097,
-      "sha256": "b41c15b91251747a162224007b8f40c7feb5a58253686fbe665ab3845d60d1a2"
+      "bytes": 1874,
+      "sha256": "43edb83c57b0add08d562799ad6aebe6da6bccb61bad4011f069753cadab84e8"
     },
     "README.md": {
-      "bytes": 6128,
-      "sha256": "ed63067552cafe69f7231d2d60610910fd4a8b35f302dfaf5a4de0e4a3b4e4b2"
+      "bytes": 6370,
+      "sha256": "8fe6b6d328dd3e63ce7f0a04a1dec4e2e181100694a0bc8db7b5e855d304cb76"
     },
     "verify_release.py": {
       "bytes": 3118,
@@ -58,8 +69,8 @@
       "sha256": "d86e4c023914b5469dde87ac46afedcff363df02aef92c538c9d16dab99b483d"
     },
     "core/BUILD_EVIDENCE.json": {
-      "bytes": 13289,
-      "sha256": "1491724de7d0be9c295036c2027c4b3df2dd20b1aaf194631ac3fcef9897d8dd"
+      "bytes": 13450,
+      "sha256": "0061f0a65fa10daf0ceafb5d04264302418acdce67042b11eda3c8dbe81708c2"
     },
     "core/BinomialKernel.lean": {
       "bytes": 4715,
@@ -374,8 +385,8 @@
       "sha256": "2190fd318dbf80b2f96997e6b33603857d0727611424af740cfcc31e84374bd4"
     },
     "core/README.md": {
-      "bytes": 8000,
-      "sha256": "39fac57f2aeef4e3407598b7c5993c420d5a381ea862e931caccd9736a344579"
+      "bytes": 8093,
+      "sha256": "a1e6c31a3d4df9ec60e3d94a15059f48f451ed5f7f8d46736c0cf94dfe78f7ad"
     },
     "core/RefinedForestPrefix.lean": {
       "bytes": 5591,
@@ -394,8 +405,8 @@
       "sha256": "89150a01d1a1ad375ca83fb192b63b3b5ef6af665dd05c0db7d44bf2eb882f43"
     },
     "core/SOURCE_MANIFEST.json": {
-      "bytes": 18744,
-      "sha256": "1fa5c1d60cc0736ce9a3e70cd9acbb33501f5010e95e16f704885e8d92af2ee4"
+      "bytes": 18913,
+      "sha256": "de0bff219001515db8bacdb83218147bef721612222d4fec2daa0fc2b965daf7"
     },
     "core/SOURCE_PROVENANCE.json": {
       "bytes": 52363,
@@ -554,8 +565,8 @@
       "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
     },
     "corollary/PROOF_EVIDENCE_SUMMARY.json": {
-      "bytes": 13794,
-      "sha256": "1cedbb5a7604a69cd92279acb6731edb50f3986111fe3e521e9db10277121c25"
+      "bytes": 13795,
+      "sha256": "4a69072aaca135a5c73498ef6e8f0fac0ef9dc25bbb9c20fce80a75795ba739a"
     },
     "corollary/README.md": {
       "bytes": 7177,
@@ -567,7 +578,7 @@
     },
     "corollary/SOURCE_MANIFEST.json": {
       "bytes": 3883,
-      "sha256": "1913ec0856e7a3b0d26adecc4e2ab187cf2e0f3be6ed0aabfe583d6c254e7efe"
+      "sha256": "0215459b9e8178a0f71897e66f8a88fe261278fe6e828876de516faf4ac5a3b8"
     },
     "corollary/src/ForestCore/AcyclicBridge.lean": {
       "bytes": 3067,
@@ -590,32 +601,32 @@
       "sha256": "2a3c7d3c107f4cf64320666d89224c2181dbb356087ebb939999aea6ba1234c6"
     },
     "docs/ARTIFACTS.md": {
-      "bytes": 3139,
-      "sha256": "3205ab0d5b2c0188381612efc8f8b2b3938c77090c4d97646c7ad2eade2c9934"
+      "bytes": 3373,
+      "sha256": "bfb84f88afaa44cd9a60612c12c258714d3e022425982ba9698332592d4b7e78"
     },
     "docs/ATTRIBUTION.md": {
-      "bytes": 5947,
-      "sha256": "cc4902053a8ac1e597ea178074bec3afd8038c8781260bbbae0c078cfc73e97b"
+      "bytes": 6006,
+      "sha256": "228504dffd12847fab5c7aedb71279560314aa0e0b27784eb49aabb5aacb8dcc"
     },
     "docs/BIBLIOGRAPHY.md": {
-      "bytes": 5934,
-      "sha256": "7d6fd87e6b5e37e1b8c45de4e33e04468c51f98109192c15ccdeda09ed3d78ca"
+      "bytes": 6071,
+      "sha256": "3a2a5231690f5f6884c78fe641326f2c10d5114904ee524d7d961104eceebc02"
     },
     "docs/PAPER.md": {
-      "bytes": 26213,
-      "sha256": "0710fcb3f6ade00fc384386041d6944aae2e70e00c2d7f5c317c9118a985ac2c"
+      "bytes": 26229,
+      "sha256": "f71f4079ebe7ccac1ca19abca8339bc89f629b06c159b7a9bf0608a9002db969"
     },
     "docs/PAPER.pdf": {
-      "bytes": 278290,
-      "sha256": "01fa22d54836fb441d7d4e7898fdf0527ed3ae8613401392045458530491e2ba"
+      "bytes": 278329,
+      "sha256": "ca34a3153346489bf957d8eb6710b74c92eb69724304a5df455733696b7ee1a3"
     },
     "docs/REPRODUCTION.md": {
       "bytes": 5540,
       "sha256": "c94909eb6f1cdd53714688cabb0896adb7fcb2e0681f14bcceaed3362db8a556"
     },
     "docs/REVIEW.md": {
-      "bytes": 5558,
-      "sha256": "79a7355782ec2b86cde2c6c1aa9d70d7e190a447dda2359ca202ede01f6c76e4"
+      "bytes": 5613,
+      "sha256": "4d66e0a22253f20b35148cfb03f4953c8d70cd5f5670789a4ceec32aa3bb17d2"
     },
     "docs/VERIFICATION.md": {
       "bytes": 5041,
@@ -624,10 +635,6 @@
     "docs/references.bib": {
       "bytes": 4336,
       "sha256": "ba7fc2afbfc3e3b0cde0d8ecef93e7e136dea53e69f3665bd569770050b9bc5a"
-    },
-    "licensing_proposal/Apache-2.0.txt": {
-      "bytes": 11558,
-      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
     },
     "tools/MathlibFloor38Assembler.lean": {
       "bytes": 21458,
@@ -652,8 +659,20 @@
       "sha256": "aa45d78b2e4f2130af21baaa09ad40fd0c8ae0bda528347561f655d41a1a02b4"
     },
     "floor38_paper.pdf": {
-      "bytes": 278290,
-      "sha256": "01fa22d54836fb441d7d4e7898fdf0527ed3ae8613401392045458530491e2ba"
+      "bytes": 278329,
+      "sha256": "ca34a3153346489bf957d8eb6710b74c92eb69724304a5df455733696b7ee1a3"
+    },
+    "LICENSE": {
+      "bytes": 11558,
+      "sha256": "e03ba41d7fab20700769fe4118bab50d800cb74f990353a05d2f5fff1c228363"
+    },
+    "LICENSE_SCOPE.md": {
+      "bytes": 3085,
+      "sha256": "fe60dcebdc73ecf7a397a75fb3b1f57e69e4831bd3cb7f1fa0f4dac5c927face"
+    },
+    "NOTICE.md": {
+      "bytes": 1874,
+      "sha256": "43edb83c57b0add08d562799ad6aebe6da6bccb61bad4011f069753cadab84e8"
     }
   }
 }

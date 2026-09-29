@@ -38,7 +38,7 @@ The generic bridge's input bound has been supplied by the completed original the
 - [Artifacts and checksums](docs/ARTIFACTS.md): source archives and fixed evidence identities.
 - [Attribution](docs/ATTRIBUTION.md), [bibliography](docs/BIBLIOGRAPHY.md) and [BibTeX](docs/references.bib).
 - [Reviewer guide](docs/REVIEW.md): focused checks and unresolved reproduction questions.
-- [Contributions](CONTRIBUTORS.md), [notices](NOTICE.md) and [proposed license scope](LICENSE_SCOPE.md).
+- [Contributions](CONTRIBUTORS.md), [notices](NOTICE.md) and [license scope](LICENSE_SCOPE.md).
 - [Concrete Mathlib corollary sources and reproduction steps](corollary/README.md).
 
 To build the [small library](core/README.md), work in `core/` or extract `forest_core_sources_2026-09-28.zip` into a new directory. Provide an existing pinned Mathlib installation and run:
@@ -60,12 +60,12 @@ A three-axiom printout alone would not establish the claim: statement meaning, a
 
 ## Credit and publication status
 
-The problem and earlier mathematical/computational work are credited in the paper and bibliography. Development involved substantial generative-AI assistance. The saved prompt, returned reports and acquisition/replay audits trace the certificate method to this project's commissioned FLOOR208 research round. Its individual seat/model identity was not retained. This missing detail does not make the round an unidentified outside source. Existing notices are preserved, and the maintainer's scoped release-license decision remains pending.
+The problem and earlier mathematical/computational work are credited in the paper and bibliography. Development involved substantial generative-AI assistance. The saved prompt, returned reports and acquisition/replay audits trace the certificate method to this project's commissioned FLOOR208 research round. Its individual seat/model identity was not retained. This missing detail does not make the round an unidentified outside source. Original project contributions are licensed under [Apache-2.0](LICENSE), with the exact files, archives and third-party exceptions stated in [LICENSE_SCOPE.md](LICENSE_SCOPE.md). Existing notices are preserved.
 
-The author and publication maintainer is Rich Patterson. The repository is [RichP0123/erdoss993-floor38](https://github.com/RichP0123/erdoss993-floor38). The prepared release tag is `v0.1.0-floor38`; the scoped license grant and actual release date are not finalized. `CITATION.cff.in` remains a template until publication metadata is complete. No ceiling theorem, higher unaccepted finite bound, unrestricted solution or priority claim is made.
+The author and publication maintainer is Rich Patterson. The repository is [RichP0123/erdos993-floor38](https://github.com/RichP0123/erdos993-floor38). [Release `v0.1.0-floor38`](https://github.com/RichP0123/erdos993-floor38/releases/tag/v0.1.0-floor38) is dated 29 September 2026. [CITATION.cff](CITATION.cff) supplies the author, version, release date, license and citation links. No ceiling theorem, higher unaccepted finite bound, unrestricted solution or priority claim is made.
 
 ## Check the downloaded files
 
 Before configuring local build paths, run `python verify_release.py`. If the named release assets are in another directory, run `python verify_release.py --assets-dir /path/to/assets`. These checks compare file hashes and do not compile Lean. `--require-publishable` additionally rejects unresolved publication metadata and unlisted repository files.
 
-The `.gitattributes` file preserves exact source bytes, including historical line endings. The full source ZIP remains a separate release attachment.
+The `.gitattributes` file preserves exact source bytes, including historical line endings. The full source ZIP remains a separate release attachment. The release also supplies `LICENSE`, `LICENSE_SCOPE.md` and `NOTICE.md` alongside both source archives.

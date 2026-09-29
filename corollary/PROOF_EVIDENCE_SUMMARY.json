@@ -250,7 +250,7 @@
       "log_sha256": "296c6cbd89c5866a052574e22686cd90b842b0ef134866de46e405161609813b"
     }
   ],
-  "trust_boundary": "Installed pinned Lean4.30 and Mathlib compiled libraries; original corpus reused from its successful full audit",
+  "trust_boundary": "Installed pinned Lean 4.30 and Mathlib compiled libraries; original corpus reused from its successful full audit",
   "full_exported_portable_build_exercised": false,
   "public_manual_corollary_rebuild_exercised": false,
   "compiler_sha256": {

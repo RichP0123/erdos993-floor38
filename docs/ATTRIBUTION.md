@@ -23,7 +23,7 @@ The retained records do not identify the exact seat/provider or historical model
 
 The final formalization proves actual graph correspondence, bank closure, interval/coverage soundness and the concrete finite obligations, removing the earlier inherited smaller-order baseline. This is distinct from the earlier computational replay and does not erase its methodological credit.
 
-The complete Lean source archive does not separately distribute the FLOOR208 round's original C++, Python or report files. The project-wide license proposal still awaits Rich Patterson's adoption and a confirmed covered file scope; the missing seat identifier is not presented as an established outside-archive licensing blocker. [NOTICE.md](../NOTICE.md) records the distribution boundary. Private acquisition paths and attachment identifiers are not part of this public provenance account.
+The complete Lean source archive does not separately distribute the FLOOR208 round's original C++, Python or report files. Rich Patterson adopted Apache-2.0 on 29 September 2026 for the original contributions identified in [LICENSE_SCOPE.md](../LICENSE_SCOPE.md), preserving existing third-party terms. The missing historical seat identifier does not alter the established project origin. [NOTICE.md](../NOTICE.md) records the distribution boundary. Private acquisition paths and attachment identifiers are not part of this public provenance account.
 
 ## Project contributions and AI assistance
 
